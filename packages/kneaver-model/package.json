@@ -1,0 +1,25 @@
+{
+  "name": "kneaver-model",
+  "version": "2.0.70",
+  "description": "Client side Model of Kneaver",
+  "author": "Bruno Winck <bwmgithub@kneaver.com>",
+  "homepage": "https://github.com/Kneaver/kneaver-open#readme",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kneaver/kneaver-open.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Kneaver/kneaver-open/issues"
+  }
+}

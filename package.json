@@ -1,5 +1,5 @@
 {
-  "name": "kneaver-thinking-box-foss",
+  "name": "kneaver-open",
   "private": true,
   "devDependencies": {
     "husky": "^7.0.4",
@@ -8,15 +8,15 @@
   "scripts": {
     "install:all": "lerna exec npm install",
     "test": "./__tests__/index.js",
-    "desktop": "cd packages/kneaver-thinking-box-electron && npm run start && cd ..",
+    "desktop": "cd packages/kneaver-electron && npm run start && cd ..",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kneaver/kneaver-thinking-box-foss.git"
+    "url": "git+https://github.com/Kneaver/kneaver-open.git"
   },
   "bugs": {
-    "url": "https://github.com/Kneaver/kneaver-thinking-box-foss/issues"
+    "url": "https://github.com/Kneaver/kneaver-open/issues"
   },
-  "homepage": "https://github.com/Kneaver/kneaver-thinking-box-foss#readme"
+  "homepage": "https://github.com/Kneaver/kneaver-open#readme"
 }

@@ -1,0 +1,57 @@
+{
+  "name": "kneaver-electron",
+  "productName": "kneaver-open",
+  "version": "2.0.70",
+  "description": "Kneaver Desktop",
+  "program": "electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "dotenv electron ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kneaver/kneaver-open",
+    "docs": "https://github.com/kneaver/kneaver-open/blob/master/README.md"
+  },
+  "keywords": [
+    "idea-manager",
+    "productivity",
+    "desktop"
+  ],
+  "author": "Kneaver Corp <info@kneaver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kneaver/kneaver-open/issues"
+  },
+  "homepage": "https://github.com/kneaver/kneaver-open#readme",
+  "config": {
+    "link": "true"
+  },
+  "build": {
+    "appId": "com.kneaver.open",
+    "productName": "kneaver-open",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "identity": null
+    }
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "electron-devtools-installer": "^3.2.0",
+    "kneaver-electron-helpers": "file:../../../kneaver-electron-helpers",
+    "kneaver-core": "file:../kneaver-core",
+    "kneaver-ui": "file:../kneaver-ui",
+    "kneaver-stdclient": "file:../../../kneaver-stdclient",
+    "kneaver-stdjs": "file:../../../kneaver-stdjs",
+    "kneaver-stdscripts": "file:../../../kneaver-stdscripts"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5",
+    "kneaver-dot": "file:../../../kneaver-dot",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
