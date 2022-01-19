@@ -1,0 +1,6933 @@
+[
+  {
+    "id": "type",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "owl:Class",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Bg",
+        "typeId": "w",
+        "otherId": "g"
+      },
+      {
+        "id": "Vg",
+        "typeId": "OQ",
+        "otherId": "w"
+      },
+      {
+        "id": "WA",
+        "typeId": "Rw",
+        "otherId": "w"
+      },
+      {
+        "id": "YA",
+        "typeId": "Rw",
+        "otherId": "OQ"
+      },
+      {
+        "id": "ZA",
+        "typeId": "Rw",
+        "otherId": "Rw"
+      },
+      {
+        "id": "cQ",
+        "typeId": "Zw",
+        "otherId": "w"
+      },
+      {
+        "id": "dg",
+        "typeId": "cg",
+        "otherId": "w"
+      }
+    ]
+  },
+  {
+    "id": "linktype",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "owl:DatatypeProperty",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CIg",
+        "typeId": "w",
+        "otherId": "CIA"
+      },
+      {
+        "id": "CJQ",
+        "typeId": "w",
+        "otherId": "CIw"
+      }
+    ]
+  },
+  {
+    "id": "Q",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TerminalType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DYQ",
+        "typeId": "w",
+        "otherId": "DWQ"
+      },
+      {
+        "id": "FBg",
+        "typeId": "w",
+        "otherId": "FBA"
+      },
+      {
+        "id": "FRQ",
+        "typeId": "w",
+        "otherId": "FQw"
+      },
+      {
+        "id": "GZg",
+        "typeId": "w",
+        "otherId": "GZA"
+      },
+      {
+        "id": "HAg",
+        "typeId": "w",
+        "otherId": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "g",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "owl:ObjectProperty",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BQ",
+        "typeId": "w",
+        "otherId": "type"
+      },
+      {
+        "id": "Yg",
+        "typeId": "OQ",
+        "otherId": "OQ"
+      },
+      {
+        "id": "Zg",
+        "typeId": "OQ",
+        "otherId": "Rw"
+      }
+    ]
+  },
+  {
+    "id": "w",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "rdfs:subClassOf",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Iw",
+        "typeId": "Bw",
+        "otherId": "IQ"
+      },
+      {
+        "id": "VQ",
+        "typeId": "OQ",
+        "otherId": "type"
+      },
+      {
+        "id": "Vw",
+        "typeId": "Rw",
+        "otherId": "type"
+      },
+      {
+        "id": "cA",
+        "typeId": "Zw",
+        "otherId": "type"
+      },
+      {
+        "id": "dQ",
+        "typeId": "cg",
+        "otherId": "type"
+      }
+    ]
+  },
+  {
+    "id": "BA",
+    "data": "{\"AttributeType\":{\"Name\":\"Schema\",\"Type\":\"Memo\"}}",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:AttributeLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Jg",
+        "typeId": "Bw",
+        "otherId": "JA"
+      }
+    ]
+  },
+  {
+    "id": "Bw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "owl:inverseOf",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "CA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:PartOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FA",
+        "typeId": "Bw",
+        "otherId": "Eg"
+      }
+    ]
+  },
+  {
+    "id": "CQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:RelatedToLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CZQ",
+        "typeId": "w",
+        "otherId": "CYw"
+      }
+    ]
+  },
+  {
+    "id": "EA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:SpecializationOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Fw",
+        "typeId": "Bw",
+        "otherId": "FQ"
+      }
+    ]
+  },
+  {
+    "id": "EQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:InstanceOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "IA",
+        "typeId": "Bw",
+        "otherId": "GA"
+      }
+    ]
+  },
+  {
+    "id": "Eg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:ComposedOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Ew",
+        "typeId": "Bw",
+        "otherId": "CA"
+      }
+    ]
+  },
+  {
+    "id": "FQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:GeneralizationOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Fg",
+        "typeId": "Bw",
+        "otherId": "EA"
+      }
+    ]
+  },
+  {
+    "id": "GA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:IsTheSetOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GQ",
+        "typeId": "Bw",
+        "otherId": "EQ"
+      }
+    ]
+  },
+  {
+    "id": "IQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:SuperTypeOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Ig",
+        "typeId": "Bw",
+        "otherId": "w"
+      }
+    ]
+  },
+  {
+    "id": "JA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:HasAttributeLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "JQ",
+        "typeId": "Bw",
+        "otherId": "BA"
+      }
+    ]
+  },
+  {
+    "id": "Jw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ApplicationType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "NQ",
+        "typeId": "KQ",
+        "otherId": "MA"
+      }
+    ]
+  },
+  {
+    "id": "KA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:ApplicationRequiresLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "MQ",
+        "typeId": "KQ",
+        "otherId": "MA"
+      }
+    ]
+  },
+  {
+    "id": "KQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:DefinedInLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Nw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      }
+    ]
+  },
+  {
+    "id": "MA",
+    "data": "{\"Release\":\"1.0.1\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNV:Bootstrap",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Mg",
+        "typeId": "KQ",
+        "otherId": "KA"
+      },
+      {
+        "id": "Mw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "NA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "Ng",
+        "typeId": "KQ",
+        "otherId": "Jw"
+      },
+      {
+        "id": "OA",
+        "typeId": "KQ",
+        "otherId": "KQ"
+      },
+      {
+        "id": "QQ",
+        "typeId": "KQ",
+        "otherId": "OQ"
+      },
+      {
+        "id": "RA",
+        "typeId": "KQ",
+        "otherId": "Qg"
+      },
+      {
+        "id": "SQ",
+        "typeId": "KQ",
+        "otherId": "Rw"
+      },
+      {
+        "id": "Ug",
+        "typeId": "KQ",
+        "otherId": "UA"
+      },
+      {
+        "id": "aQ",
+        "typeId": "KQ",
+        "otherId": "Zw"
+      },
+      {
+        "id": "dA",
+        "typeId": "KQ",
+        "otherId": "cg"
+      }
+    ]
+  },
+  {
+    "id": "MA",
+    "data": "{\"Release\":\"1.0.1\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNV:Bootstrap",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Mg",
+        "typeId": "KQ",
+        "otherId": "KA"
+      },
+      {
+        "id": "Mw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "NA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "Ng",
+        "typeId": "KQ",
+        "otherId": "Jw"
+      },
+      {
+        "id": "OA",
+        "typeId": "KQ",
+        "otherId": "KQ"
+      },
+      {
+        "id": "QQ",
+        "typeId": "KQ",
+        "otherId": "OQ"
+      },
+      {
+        "id": "RA",
+        "typeId": "KQ",
+        "otherId": "Qg"
+      },
+      {
+        "id": "SQ",
+        "typeId": "KQ",
+        "otherId": "Rw"
+      },
+      {
+        "id": "Ug",
+        "typeId": "KQ",
+        "otherId": "UA"
+      },
+      {
+        "id": "aQ",
+        "typeId": "KQ",
+        "otherId": "Zw"
+      },
+      {
+        "id": "dA",
+        "typeId": "KQ",
+        "otherId": "cg"
+      }
+    ]
+  },
+  {
+    "id": "MA",
+    "data": "{\"Release\":\"1.0.1\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNV:Bootstrap",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Mg",
+        "typeId": "KQ",
+        "otherId": "KA"
+      },
+      {
+        "id": "Mw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "NA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "Ng",
+        "typeId": "KQ",
+        "otherId": "Jw"
+      },
+      {
+        "id": "OA",
+        "typeId": "KQ",
+        "otherId": "KQ"
+      },
+      {
+        "id": "QQ",
+        "typeId": "KQ",
+        "otherId": "OQ"
+      },
+      {
+        "id": "RA",
+        "typeId": "KQ",
+        "otherId": "Qg"
+      },
+      {
+        "id": "SQ",
+        "typeId": "KQ",
+        "otherId": "Rw"
+      },
+      {
+        "id": "Ug",
+        "typeId": "KQ",
+        "otherId": "UA"
+      },
+      {
+        "id": "aQ",
+        "typeId": "KQ",
+        "otherId": "Zw"
+      },
+      {
+        "id": "dA",
+        "typeId": "KQ",
+        "otherId": "cg"
+      }
+    ]
+  },
+  {
+    "id": "OQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "rdfs:range",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "QA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "RQ",
+        "typeId": "Bw",
+        "otherId": "Qg"
+      },
+      {
+        "id": "WQ",
+        "typeId": "Rw",
+        "otherId": "type"
+      },
+      {
+        "id": "YQ",
+        "typeId": "OQ",
+        "otherId": "g"
+      }
+    ]
+  },
+  {
+    "id": "Qg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:TargetApplicableLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Qw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "Rg",
+        "typeId": "Bw",
+        "otherId": "OQ"
+      }
+    ]
+  },
+  {
+    "id": "Rw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "rdfs:domain",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "SA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "Uw",
+        "typeId": "Bw",
+        "otherId": "UA"
+      },
+      {
+        "id": "Yw",
+        "typeId": "Rw",
+        "otherId": "type"
+      },
+      {
+        "id": "ZQ",
+        "typeId": "OQ",
+        "otherId": "g"
+      }
+    ]
+  },
+  {
+    "id": "UA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:SourceApplicableLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "UQ",
+        "typeId": "KQ",
+        "otherId": "MA"
+      },
+      {
+        "id": "VA",
+        "typeId": "Bw",
+        "otherId": "Rw"
+      }
+    ]
+  },
+  {
+    "id": "Zw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:LinkObjectType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "aA",
+        "typeId": "KQ",
+        "otherId": "MA"
+      }
+    ]
+  },
+  {
+    "id": "cg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:LinkAttributeType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "cw",
+        "typeId": "KQ",
+        "otherId": "MA"
+      }
+    ]
+  },
+  {
+    "id": "dw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:FacetLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "eQ",
+        "typeId": "Bw",
+        "otherId": "eA"
+      }
+    ]
+  },
+  {
+    "id": "eA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:HasFacetLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "gA",
+        "typeId": "Bw",
+        "otherId": "dw"
+      }
+    ]
+  },
+  {
+    "id": "gQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "backlink",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceBackLink",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "gg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:NameRoleType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "title",
+    "typeId": "gg",
+    "names": [
+      {
+        "name": "KNV:TitleNameRole",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "AKA",
+    "typeId": "gg",
+    "names": [
+      {
+        "name": "KNV:AKANameRole",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "handle",
+    "typeId": "gg",
+    "names": [
+      {
+        "name": "KNV:HandleNameRole",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "hashtag",
+    "typeId": "gg",
+    "names": [
+      {
+        "name": "KNV:HashtagNameRole",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "hA",
+    "data": "{\"Name\":\"DublinCore\",\"Author\":\"Bruno Winck\",\"Release\":\"7.0.1\",\"References\":\"\\\\r\\\\n        http://dublincore.org/documents/usageguide/elements.shtml\\\\r\\\\n        http://purl.org/dc/elements/1.1/ (rdf elements)\\\\r\\\\n    \",\"KNVReqs\":\"\",\"FileTime\":\"Thu May 24 2018 12:42:24 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "DublinCore",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "hQ",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:title\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:title",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "hg",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:creator\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:creator",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "hw",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:subject\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:subject",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "iA",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:description\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:description",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HBg",
+        "typeId": "BA",
+        "otherId": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "iQ",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:publisher\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:publisher",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "kA",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:contributor\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:contributor",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "kQ",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:date\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:date",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "kg",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:type\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:type",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "kw",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:format\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:format",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "lA",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:identifier\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:identifier",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "lQ",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:source\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:source",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "lg",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:language\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:language",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "lw",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:relation\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:relation",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "mA",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:coverage\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:coverage",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "mQ",
+    "data": "{\"AttributeType\":{\"Name\":\"dc:rights\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "dc:rights",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "BAQ",
+    "data": "{\"Name\":\"KNVRefData\",\"Author\":\"Bruno Winck\",\"Release\":\"3.0.1\",\"KNVReqs\":\"\",\"KNVServerTemplateFiles\":{\"KNVServerTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVDBQuery.ejs\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/item.rsd\"},{\"href\":\"RSHTMLSubst.dll\"},{\"href\":\"RSXDA.dll\"}]},\"FileTime\":\"Thu Jun 25 2020 15:36:56 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVRefData",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "BAg",
+    "data": "{\"AttributeType\":{\"Name\":\"ConnectionString\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:ConnectionStringSlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BCQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BIQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BMQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BQQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BUQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BYQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BZQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BaQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "Bcw",
+        "typeId": "BA",
+        "otherId": "BBw"
+      }
+    ]
+  },
+  {
+    "id": "BAw",
+    "data": "{\"AttributeType\":{\"Name\":\"SQLQuery\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:SQLQuerySlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BdQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      }
+    ]
+  },
+  {
+    "id": "BBA",
+    "data": "{\"AttributeType\":{\"Name\":\"Path\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:HTMLTemplateSlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Bdw",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BeQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "BgQ",
+        "typeId": "BA",
+        "otherId": "BBw"
+      },
+      {
+        "id": "Bgw",
+        "typeId": "BA",
+        "otherId": "BBw"
+      }
+    ]
+  },
+  {
+    "id": "BBQ",
+    "data": "{\"AttributeType\":{\"Name\":\"URL\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:URLSlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DAg",
+        "typeId": "w",
+        "otherId": "DAA"
+      },
+      {
+        "id": "FRw",
+        "typeId": "BA",
+        "otherId": "FQw"
+      }
+    ]
+  },
+  {
+    "id": "BBg",
+    "data": "{\"AttributeType\":[{\"Name\":\"LatitudeMin\",\"Type\":\"Double\",\"Unit\":\"Degree\"},{\"Name\":\"LongitudeMin\",\"Type\":\"Double\",\"Unit\":\"Degree\"},{\"Name\":\"LatitudeMax\",\"Type\":\"Double\",\"Unit\":\"Degree\"},{\"Name\":\"LongitudeMax\",\"Type\":\"Double\",\"Unit\":\"Degree\"}]}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:EarthLocationSlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BEg",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "BIw",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "BMw",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "BQw",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "BUw",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "BhQ",
+        "typeId": "BA",
+        "otherId": "BEA"
+      },
+      {
+        "id": "EIQ",
+        "typeId": "BA",
+        "otherId": "EFw"
+      }
+    ]
+  },
+  {
+    "id": "BBw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:DBQueryType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BCA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BIA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BMA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BQA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BUA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BYA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BZA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BaA",
+        "typeId": "BA",
+        "otherId": "BAg"
+      },
+      {
+        "id": "Bcg",
+        "typeId": "BA",
+        "body": "ConnectionString",
+        "otherId": "BAg"
+      },
+      {
+        "id": "BdA",
+        "typeId": "BA",
+        "body": "SQLQuery",
+        "otherId": "BAw"
+      },
+      {
+        "id": "Bdg",
+        "typeId": "BA",
+        "body": "ListTemplate",
+        "otherId": "BBA"
+      },
+      {
+        "id": "BeA",
+        "typeId": "BA",
+        "body": "InstanceTemplate",
+        "otherId": "BBA"
+      },
+      {
+        "id": "BgA",
+        "typeId": "BA",
+        "body": "ListEditTemplate",
+        "otherId": "BBA"
+      },
+      {
+        "id": "Bgg",
+        "typeId": "BA",
+        "body": "InstanceEditTemplate",
+        "otherId": "BBA"
+      }
+    ]
+  },
+  {
+    "id": "BEA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:EarthLocationType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BEQ",
+        "typeId": "BA",
+        "otherId": "BBg"
+      },
+      {
+        "id": "BIg",
+        "typeId": "BA",
+        "otherId": "BBg"
+      },
+      {
+        "id": "BMg",
+        "typeId": "BA",
+        "otherId": "BBg"
+      },
+      {
+        "id": "BQg",
+        "typeId": "BA",
+        "otherId": "BBg"
+      },
+      {
+        "id": "BUg",
+        "typeId": "BA",
+        "otherId": "BBg"
+      },
+      {
+        "id": "BhA",
+        "typeId": "BA",
+        "body": "Location",
+        "otherId": "BBg"
+      }
+    ]
+  },
+  {
+    "id": "BEw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:BaseLinkType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ducked",
+    "typeId": "gQ",
+    "names": [
+      {
+        "name": "KNV:InferenceSourceDucked",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Bhw",
+    "data": "{\"Name\":\"KNVStdInfo\",\"Author\":\"Bruno Winck\",\"Release\":\"6.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"}},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":{\"_\":\"\\\\r\\\\n        UILevel Was 10 before, Is a setting from Site\\\\r\\\\n        UILevel = 0 = reader\\\\r\\\\n        UILevel = 5 Novice\\\\r\\\\n        New users starts as a Reader, can only comment with items in his scope\\\\r\\\\n    \",\"AutoExplain\":\"0\",\"BackupEvery\":\"10\",\"GraphicStd\":\"SVG\",\"GuidePosLeft\":\"381px\",\"GuidePosTop\":\"120px\",\"PopUpEdit\":\"1\",\"PopUpKneave\":\"1\",\"PopUpUnlink\":\"1\",\"PopUpDelete\":\"1\",\"PopUpStayForKNVAddAfterKneave\":\"1\",\"PopUpWikiCreate\":\"1\",\"RepeatButton\":\"20\",\"ShowStyleNames\":\"0\",\"UseAJAX\":\"1\",\"UILevel\":\"5\",\"UseGuides\":\"1\",\"UseScope\":\"0\",\"WithEditButton\":\"0\",\"WithFormatting\":\"0\"},\"FileTime\":\"Sat Jun 27 2020 18:12:38 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVStdInfo",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "BiA",
+    "data": "{\"AttributeType\":{\"Name\":\"Name\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:NameAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CmQ",
+        "typeId": "w",
+        "otherId": "Clw"
+      },
+      {
+        "id": "DiA",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "DkA",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "Dkg",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "GgA",
+        "typeId": "BA",
+        "otherId": "GeA"
+      },
+      {
+        "id": "Glg",
+        "typeId": "BA",
+        "otherId": "GiA"
+      },
+      {
+        "id": "GmA",
+        "typeId": "BA",
+        "otherId": "GiA"
+      }
+    ]
+  },
+  {
+    "id": "BiQ",
+    "data": "{\"AttributeType\":{\"Name\":\"Enabled\",\"Type\":\"Boolean\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:EnabledAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Ggg",
+        "typeId": "BA",
+        "otherId": "GeA"
+      },
+      {
+        "id": "Ghw",
+        "typeId": "BA",
+        "otherId": "Ggw"
+      }
+    ]
+  },
+  {
+    "id": "BkA",
+    "data": "{\"AttributeType\":{\"Name\":\"Date\",\"Type\":\"Date\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:DateAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DJA",
+        "typeId": "BA",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DlA",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "Dlg",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "DmA",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "EAA",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "EAg",
+        "typeId": "BA",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "FEw",
+        "typeId": "BA",
+        "otherId": "FCQ"
+      },
+      {
+        "id": "FJA",
+        "typeId": "BA",
+        "otherId": "FIA"
+      },
+      {
+        "id": "FNA",
+        "typeId": "BA",
+        "otherId": "FIA"
+      },
+      {
+        "id": "FNg",
+        "typeId": "BA",
+        "otherId": "FIA"
+      }
+    ]
+  },
+  {
+    "id": "BkQ",
+    "data": "{\"AttributeType\":{\"Name\":\"Duration\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:DurationAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FFQ",
+        "typeId": "BA",
+        "otherId": "FCQ"
+      },
+      {
+        "id": "FKA",
+        "typeId": "BA",
+        "otherId": "FIA"
+      },
+      {
+        "id": "FMA",
+        "typeId": "BA",
+        "otherId": "FIA"
+      }
+    ]
+  },
+  {
+    "id": "Bkg",
+    "data": "{\"AttributeType\":{\"Name\":\"TimeZone\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:TimezoneAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FJg",
+        "typeId": "BA",
+        "otherId": "FIA"
+      }
+    ]
+  },
+  {
+    "id": "Bkw",
+    "data": "{\"AttributeType\":{\"Name\":\"Distance\",\"Type\":\"Double\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:DistanceAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GaQ",
+        "typeId": "BA",
+        "otherId": "GZw"
+      }
+    ]
+  },
+  {
+    "id": "BlA",
+    "data": "{\"AttributeType\":{\"Name\":\"Hashtag\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:HashtagAttribute",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GhQ",
+        "typeId": "BA",
+        "otherId": "Ggw"
+      }
+    ]
+  },
+  {
+    "id": "BlQ",
+    "data": "{\"Requirements\":\"Name\",\"Priority\":\"1000\",\"Icon\":\"paperclip\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TopicType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "BmA",
+        "typeId": "w",
+        "otherId": "Blg"
+      },
+      {
+        "id": "CBQ",
+        "typeId": "w",
+        "otherId": "CAw"
+      },
+      {
+        "id": "CCA",
+        "typeId": "w",
+        "otherId": "CBg"
+      },
+      {
+        "id": "CKA",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "CMQ",
+        "typeId": "w",
+        "otherId": "CKQ"
+      },
+      {
+        "id": "FUA",
+        "typeId": "Rw",
+        "otherId": "FSA"
+      },
+      {
+        "id": "GRA",
+        "typeId": "w",
+        "otherId": "GQg"
+      },
+      {
+        "id": "GRw",
+        "typeId": "w",
+        "otherId": "GRQ"
+      },
+      {
+        "id": "GUA",
+        "typeId": "w",
+        "otherId": "GSA"
+      },
+      {
+        "id": "HMg",
+        "typeId": "w",
+        "otherId": "HMA"
+      }
+    ]
+  },
+  {
+    "id": "Blg",
+    "data": "{\"UILevel\":\"7\",\"Priority\":\"790\",\"Icon\":\"folder-open\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ContainerType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Blw",
+        "typeId": "w",
+        "otherId": "BlQ"
+      },
+      {
+        "id": "HKQ",
+        "typeId": "w",
+        "otherId": "HJw"
+      }
+    ]
+  },
+  {
+    "id": "BmQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:IsMemberOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CAg",
+        "typeId": "Bw",
+        "otherId": "CAA"
+      }
+    ]
+  },
+  {
+    "id": "CAA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:ContainLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CAQ",
+        "typeId": "Bw",
+        "otherId": "BmQ"
+      }
+    ]
+  },
+  {
+    "id": "CAw",
+    "data": "{\"Priority\":\"450\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PostType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CBA",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "CBg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:StoryType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CBw",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "CCQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:ParticipateToLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CEg",
+        "typeId": "Bw",
+        "otherId": "CEA"
+      }
+    ]
+  },
+  {
+    "id": "CEA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:AsParticipantToLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CEQ",
+        "typeId": "Bw",
+        "otherId": "CCQ"
+      }
+    ]
+  },
+  {
+    "id": "CEw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PhysicalType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DGA",
+        "typeId": "w",
+        "otherId": "DEg"
+      }
+    ]
+  },
+  {
+    "id": "CFA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ImmaterialType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DNA",
+        "typeId": "w",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "CFQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:GhostType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "CFw",
+    "data": "{\"Name\":\"KNVskos\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.2\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}},\"KNVTemplateFiles\":\"\\\\r\\\\n  \",\"UserPolicy\":\"\\\\r\\\\n  \",\"FileTime\":\"Mon Jun 22 2020 22:22:20 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVskos",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "CGA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "owl:SymmetricProperty",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "CGQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "owl:TransitiveProperty",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "CIA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "owl:AnnotationProperty",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CIQ",
+        "typeId": "w",
+        "otherId": "linktype"
+      }
+    ]
+  },
+  {
+    "id": "CIw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "owl:FunctionalProperty",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CJA",
+        "typeId": "w",
+        "otherId": "linktype"
+      }
+    ]
+  },
+  {
+    "id": "CJg",
+    "data": "{\"CSSClass\":\"Concept\",\"Priority\":\"900\",\"Icon\":\"cog\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "skos:Concept",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CJw",
+        "typeId": "w",
+        "otherId": "BlQ"
+      },
+      {
+        "id": "CQA",
+        "typeId": "OQ",
+        "otherId": "CNg"
+      },
+      {
+        "id": "CRg",
+        "typeId": "OQ",
+        "otherId": "CRA"
+      },
+      {
+        "id": "DFA",
+        "typeId": "w",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DMA",
+        "typeId": "w",
+        "otherId": "DKA"
+      },
+      {
+        "id": "Dgg",
+        "typeId": "w",
+        "otherId": "DgA"
+      },
+      {
+        "id": "DhQ",
+        "typeId": "w",
+        "otherId": "Dgw"
+      },
+      {
+        "id": "EBw",
+        "typeId": "w",
+        "otherId": "EBQ"
+      },
+      {
+        "id": "EEA",
+        "typeId": "w",
+        "otherId": "ECA"
+      },
+      {
+        "id": "EGQ",
+        "typeId": "w",
+        "otherId": "EFw"
+      },
+      {
+        "id": "EJA",
+        "typeId": "w",
+        "otherId": "EIg"
+      },
+      {
+        "id": "EKQ",
+        "typeId": "w",
+        "otherId": "EJw"
+      },
+      {
+        "id": "EMg",
+        "typeId": "w",
+        "otherId": "EMA"
+      },
+      {
+        "id": "EQQ",
+        "typeId": "w",
+        "otherId": "EOQ"
+      },
+      {
+        "id": "EVg",
+        "typeId": "w",
+        "otherId": "EVA"
+      },
+      {
+        "id": "EWQ",
+        "typeId": "w",
+        "otherId": "EVw"
+      },
+      {
+        "id": "EYg",
+        "typeId": "w",
+        "otherId": "EYA"
+      },
+      {
+        "id": "FEQ",
+        "typeId": "w",
+        "otherId": "FCQ"
+      },
+      {
+        "id": "FGA",
+        "typeId": "w",
+        "otherId": "FFg"
+      },
+      {
+        "id": "FIg",
+        "typeId": "w",
+        "otherId": "FIA"
+      },
+      {
+        "id": "FOQ",
+        "typeId": "w",
+        "otherId": "FNw"
+      },
+      {
+        "id": "GMw",
+        "typeId": "w",
+        "otherId": "GMQ"
+      },
+      {
+        "id": "GNg",
+        "typeId": "w",
+        "otherId": "GNA"
+      },
+      {
+        "id": "GOQ",
+        "typeId": "w",
+        "otherId": "GNw"
+      }
+    ]
+  },
+  {
+    "id": "CKQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "skos:ConceptScheme",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CMA",
+        "typeId": "w",
+        "otherId": "BlQ"
+      },
+      {
+        "id": "CNA",
+        "typeId": "OQ",
+        "otherId": "CMg"
+      }
+    ]
+  },
+  {
+    "id": "CMg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:inScheme",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CMw",
+        "typeId": "OQ",
+        "otherId": "CKQ"
+      }
+    ]
+  },
+  {
+    "id": "CNQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "skos:Collection",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "COA",
+        "typeId": "OQ",
+        "otherId": "CNg"
+      }
+    ]
+  },
+  {
+    "id": "CNg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:member",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CNw",
+        "typeId": "OQ",
+        "otherId": "CNQ"
+      },
+      {
+        "id": "COQ",
+        "typeId": "OQ",
+        "otherId": "CJg"
+      },
+      {
+        "id": "CQw",
+        "typeId": "Bw",
+        "otherId": "CQQ"
+      }
+    ]
+  },
+  {
+    "id": "CQQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:isMemberOf",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CQg",
+        "typeId": "Bw",
+        "otherId": "CNg"
+      }
+    ]
+  },
+  {
+    "id": "CRA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:semanticRelation",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CRQ",
+        "typeId": "OQ",
+        "otherId": "CJg"
+      },
+      {
+        "id": "CSQ",
+        "typeId": "w",
+        "otherId": "CRw"
+      },
+      {
+        "id": "CUg",
+        "typeId": "w",
+        "otherId": "CUA"
+      },
+      {
+        "id": "CaA",
+        "typeId": "w",
+        "otherId": "CZg"
+      }
+    ]
+  },
+  {
+    "id": "CRw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:broaderTransitive",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CSA",
+        "typeId": "w",
+        "otherId": "CRA"
+      },
+      {
+        "id": "CVA",
+        "typeId": "Bw",
+        "otherId": "CUA"
+      },
+      {
+        "id": "CVw",
+        "typeId": "w",
+        "otherId": "CVQ"
+      }
+    ]
+  },
+  {
+    "id": "CUA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:narrowerTransitive",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CUQ",
+        "typeId": "w",
+        "otherId": "CRA"
+      },
+      {
+        "id": "CUw",
+        "typeId": "Bw",
+        "otherId": "CRw"
+      },
+      {
+        "id": "CYA",
+        "typeId": "w",
+        "otherId": "CWA"
+      }
+    ]
+  },
+  {
+    "id": "CVQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:broader",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CVg",
+        "typeId": "w",
+        "otherId": "CRw"
+      },
+      {
+        "id": "CYg",
+        "typeId": "Bw",
+        "otherId": "CWA"
+      },
+      {
+        "id": "Ccw",
+        "typeId": "w",
+        "otherId": "CaQ"
+      }
+    ]
+  },
+  {
+    "id": "CWA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:narrower",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CWQ",
+        "typeId": "w",
+        "otherId": "CUA"
+      },
+      {
+        "id": "CYQ",
+        "typeId": "Bw",
+        "otherId": "CVQ"
+      },
+      {
+        "id": "CeA",
+        "typeId": "w",
+        "otherId": "CdA"
+      }
+    ]
+  },
+  {
+    "id": "CYw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:related",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CZA",
+        "typeId": "w",
+        "otherId": "CQ"
+      },
+      {
+        "id": "ChQ",
+        "typeId": "w",
+        "otherId": "CgQ"
+      }
+    ]
+  },
+  {
+    "id": "CZg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:mappingRelation",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CZw",
+        "typeId": "w",
+        "otherId": "CRA"
+      },
+      {
+        "id": "CcQ",
+        "typeId": "w",
+        "otherId": "CaQ"
+      },
+      {
+        "id": "Cdg",
+        "typeId": "w",
+        "otherId": "CdA"
+      },
+      {
+        "id": "Cgw",
+        "typeId": "w",
+        "otherId": "CgQ"
+      },
+      {
+        "id": "CiA",
+        "typeId": "w",
+        "otherId": "Chg"
+      },
+      {
+        "id": "CkQ",
+        "typeId": "w",
+        "otherId": "CiQ"
+      }
+    ]
+  },
+  {
+    "id": "CaQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:broadMatch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CcA",
+        "typeId": "w",
+        "otherId": "CZg"
+      },
+      {
+        "id": "Ccg",
+        "typeId": "w",
+        "otherId": "CVQ"
+      },
+      {
+        "id": "CgA",
+        "typeId": "Bw",
+        "otherId": "CdA"
+      }
+    ]
+  },
+  {
+    "id": "CdA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:narrowMatch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CdQ",
+        "typeId": "w",
+        "otherId": "CZg"
+      },
+      {
+        "id": "Cdw",
+        "typeId": "w",
+        "otherId": "CWA"
+      },
+      {
+        "id": "CeQ",
+        "typeId": "Bw",
+        "otherId": "CaQ"
+      }
+    ]
+  },
+  {
+    "id": "CgQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:relatedMatch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Cgg",
+        "typeId": "w",
+        "otherId": "CZg"
+      },
+      {
+        "id": "ChA",
+        "typeId": "w",
+        "otherId": "CYw"
+      }
+    ]
+  },
+  {
+    "id": "Chg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:closeMatch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Chw",
+        "typeId": "w",
+        "otherId": "CZg"
+      },
+      {
+        "id": "Ckw",
+        "typeId": "w",
+        "otherId": "CiQ"
+      }
+    ]
+  },
+  {
+    "id": "CiQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "skos:exactMatch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CkA",
+        "typeId": "w",
+        "otherId": "CZg"
+      },
+      {
+        "id": "Ckg",
+        "typeId": "w",
+        "otherId": "Chg"
+      }
+    ]
+  },
+  {
+    "id": "ClQ",
+    "data": "{\"Name\":\"KNVFOAF\",\"Author\":\"Bruno Winck\",\"Release\":\"4.0.1\",\"Reference\":\"FOAF (an acronym of Friend of a Friend) is a machine-readable ontology describing persons\",\"text\":\"see http://xmlns.com/foaf/spec\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVskos\",\"Release\":\"1.0.0\"}]},\"KNVOtherFiles\":{\"KNVOtherFile\":{\"href\":\"../../KNVStatics/KNVImages/KNVIconFriendOf.png\"}},\"FileTime\":\"Thu Feb 11 2021 11:54:55 GMT+0100 (Central European Standard Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVFOAF",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Clg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Agent",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DFg",
+        "typeId": "w",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DJw",
+        "typeId": "w",
+        "otherId": "DJQ"
+      },
+      {
+        "id": "DMg",
+        "typeId": "w",
+        "otherId": "DKA"
+      },
+      {
+        "id": "EJg",
+        "typeId": "w",
+        "otherId": "EIg"
+      }
+    ]
+  },
+  {
+    "id": "Clw",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "foaf:name",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "CmA",
+        "typeId": "w",
+        "otherId": "BiA"
+      },
+      {
+        "id": "DIA",
+        "typeId": "BA",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DNg",
+        "typeId": "BA",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "DAA",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "foaf:page",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DAQ",
+        "typeId": "w",
+        "otherId": "BBQ"
+      },
+      {
+        "id": "DBg",
+        "typeId": "Bw",
+        "otherId": "DBA"
+      },
+      {
+        "id": "DEQ",
+        "typeId": "w",
+        "otherId": "DCQ"
+      }
+    ]
+  },
+  {
+    "id": "DAw",
+    "data": "{\"UILevel\":\"7\",\"Priority\":\"400\",\"Icon\":\"file-text\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Document",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DCA",
+        "typeId": "Rw",
+        "otherId": "DBA"
+      },
+      {
+        "id": "DQg",
+        "typeId": "w",
+        "otherId": "DQA"
+      },
+      {
+        "id": "DWA",
+        "typeId": "Rw",
+        "otherId": "DVg"
+      },
+      {
+        "id": "DYw",
+        "typeId": "w",
+        "otherId": "DWQ"
+      }
+    ]
+  },
+  {
+    "id": "DBA",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "foaf:topic",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DBQ",
+        "typeId": "Bw",
+        "otherId": "DAA"
+      },
+      {
+        "id": "DBw",
+        "typeId": "Rw",
+        "otherId": "DAw"
+      }
+    ]
+  },
+  {
+    "id": "DCQ",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "foaf:homepage",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DEA",
+        "typeId": "w",
+        "otherId": "DAA"
+      },
+      {
+        "id": "DIg",
+        "typeId": "BA",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DOA",
+        "typeId": "BA",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "DEg",
+    "data": "{\"Priority\":\"850\",\"Icon\":\"user\",\"CSSClass\":\"PersonType\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Person",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DEw",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "DFQ",
+        "typeId": "w",
+        "otherId": "Clg"
+      },
+      {
+        "id": "DFw",
+        "typeId": "w",
+        "otherId": "CEw"
+      },
+      {
+        "id": "DGQ",
+        "typeId": "BA",
+        "body": "Name",
+        "otherId": "Clw"
+      },
+      {
+        "id": "DIQ",
+        "typeId": "BA",
+        "body": "HomePage",
+        "otherId": "DCQ"
+      },
+      {
+        "id": "DIw",
+        "typeId": "BA",
+        "body": "Birthdate",
+        "otherId": "BkA"
+      },
+      {
+        "id": "DSA",
+        "typeId": "Rw",
+        "otherId": "DRg"
+      },
+      {
+        "id": "DUQ",
+        "typeId": "Rw",
+        "otherId": "DSQ"
+      },
+      {
+        "id": "DVA",
+        "typeId": "Rw",
+        "otherId": "DUg"
+      },
+      {
+        "id": "DcA",
+        "typeId": "Rw",
+        "otherId": "DaA"
+      },
+      {
+        "id": "DdQ",
+        "typeId": "Rw",
+        "otherId": "Dcw"
+      }
+    ]
+  },
+  {
+    "id": "DJQ",
+    "data": "{\"UILevel\":\"7\",\"Priority\":\"400\",\"Icon\":\"group\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Group",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DJg",
+        "typeId": "w",
+        "otherId": "Clg"
+      },
+      {
+        "id": "DRQ",
+        "typeId": "Rw",
+        "otherId": "DQw"
+      }
+    ]
+  },
+  {
+    "id": "DKA",
+    "data": "{\"Priority\":\"800\",\"Icon\":\"university\",\"CSSClass\":\"OrganizationType\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Organization",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DKQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "DMQ",
+        "typeId": "w",
+        "otherId": "Clg"
+      },
+      {
+        "id": "DMw",
+        "typeId": "w",
+        "otherId": "CFA"
+      },
+      {
+        "id": "DNQ",
+        "typeId": "BA",
+        "body": "Name",
+        "otherId": "Clw"
+      },
+      {
+        "id": "DNw",
+        "typeId": "BA",
+        "body": "HomePage",
+        "otherId": "DCQ"
+      },
+      {
+        "id": "EaQ",
+        "typeId": "w",
+        "otherId": "EZw"
+      },
+      {
+        "id": "GEQ",
+        "typeId": "w",
+        "otherId": "GBw"
+      },
+      {
+        "id": "HEw",
+        "typeId": "w",
+        "otherId": "HEQ"
+      },
+      {
+        "id": "HFg",
+        "typeId": "Blg",
+        "otherId": "HFA"
+      }
+    ]
+  },
+  {
+    "id": "DOQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:OnlineAccount",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "DQA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:PersonalProfileDocument",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DQQ",
+        "typeId": "w",
+        "otherId": "DAw"
+      }
+    ]
+  },
+  {
+    "id": "DQw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:member",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DRA",
+        "typeId": "Rw",
+        "otherId": "DJQ"
+      }
+    ]
+  },
+  {
+    "id": "DRg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:knows",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DRw",
+        "typeId": "Rw",
+        "otherId": "DEg"
+      }
+    ]
+  },
+  {
+    "id": "DSQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:focus",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DUA",
+        "typeId": "Rw",
+        "otherId": "DEg"
+      }
+    ]
+  },
+  {
+    "id": "DUg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:based_near",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DUw",
+        "typeId": "Rw",
+        "otherId": "DEg"
+      }
+    ]
+  },
+  {
+    "id": "DVQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:FriendOfType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "DVg",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:primaryTopic",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DVw",
+        "typeId": "Rw",
+        "otherId": "DAw"
+      }
+    ]
+  },
+  {
+    "id": "DWQ",
+    "data": "{\"UILevel\":\"6\",\"Priority\":\"600\",\"Icon\":\"file-image-o\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "foaf:Image",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DYA",
+        "typeId": "w",
+        "otherId": "Q"
+      },
+      {
+        "id": "DYg",
+        "typeId": "w",
+        "otherId": "DAw"
+      },
+      {
+        "id": "FcA",
+        "typeId": "w",
+        "otherId": "FaA"
+      },
+      {
+        "id": "Fcw",
+        "typeId": "w",
+        "otherId": "FcQ"
+      },
+      {
+        "id": "Fdg",
+        "typeId": "w",
+        "otherId": "FdA"
+      }
+    ]
+  },
+  {
+    "id": "DZA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:depiction",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DZw",
+        "typeId": "Bw",
+        "otherId": "DZQ"
+      },
+      {
+        "id": "Dcg",
+        "typeId": "w",
+        "otherId": "DaA"
+      },
+      {
+        "id": "Ddw",
+        "typeId": "w",
+        "otherId": "Dcw"
+      }
+    ]
+  },
+  {
+    "id": "DZQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:depicts",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DZg",
+        "typeId": "Bw",
+        "otherId": "DZA"
+      }
+    ]
+  },
+  {
+    "id": "DaA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:img",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DaQ",
+        "typeId": "Rw",
+        "otherId": "DEg"
+      },
+      {
+        "id": "DcQ",
+        "typeId": "w",
+        "otherId": "DZA"
+      }
+    ]
+  },
+  {
+    "id": "Dcw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "foaf:thumbnail",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DdA",
+        "typeId": "Rw",
+        "otherId": "DEg"
+      },
+      {
+        "id": "Ddg",
+        "typeId": "w",
+        "otherId": "DZA"
+      }
+    ]
+  },
+  {
+    "id": "DeQ",
+    "data": "{\"Name\":\"KNVKnowledgeRepModel\",\"Author\":\"Bruno Winck\",\"Release\":\"7.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVskos\",\"Release\":\"1.0.0\"}]},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Fri Jun 26 2020 19:40:11 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVKnowledgeRepModel",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "DgA",
+    "data": "{\"Priority\":\"740\",\"Icon\":\"wrench\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ToolType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DgQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "Dgw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:KnowledgeSourceType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "DhA",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "EBA",
+        "typeId": "w",
+        "otherId": "Dhg"
+      },
+      {
+        "id": "ERw",
+        "typeId": "w",
+        "otherId": "ERQ"
+      },
+      {
+        "id": "EUA",
+        "typeId": "w",
+        "otherId": "ESA"
+      },
+      {
+        "id": "GCQ",
+        "typeId": "w",
+        "otherId": "GBw"
+      },
+      {
+        "id": "GkA",
+        "typeId": "w",
+        "otherId": "GiA"
+      }
+    ]
+  },
+  {
+    "id": "Dhg",
+    "data": "{\"Priority\":\"760\",\"Icon\":\"book\",\"UILevel\":\"5\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:BookType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Dhw",
+        "typeId": "BA",
+        "body": "Author",
+        "otherId": "BiA"
+      },
+      {
+        "id": "DiQ",
+        "typeId": "BA",
+        "body": "Publisher",
+        "otherId": "BiA"
+      },
+      {
+        "id": "DkQ",
+        "typeId": "BA",
+        "body": "Language",
+        "otherId": "BiA"
+      },
+      {
+        "id": "Dkw",
+        "typeId": "BA",
+        "body": "DateOfPublishing",
+        "otherId": "BkA"
+      },
+      {
+        "id": "DlQ",
+        "typeId": "BA",
+        "body": "ISBN",
+        "otherId": "BkA"
+      },
+      {
+        "id": "Dlw",
+        "typeId": "BA",
+        "body": "ISBN-10",
+        "otherId": "BkA"
+      },
+      {
+        "id": "DmQ",
+        "typeId": "BA",
+        "body": "ISBN-13",
+        "otherId": "BkA"
+      },
+      {
+        "id": "EAQ",
+        "typeId": "BA",
+        "body": "Reference",
+        "otherId": "BkA"
+      },
+      {
+        "id": "EAw",
+        "typeId": "w",
+        "otherId": "Dgw"
+      }
+    ]
+  },
+  {
+    "id": "EBQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:AnecdotType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EBg",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "ECA",
+    "data": "{\"UILevel\":\"10\",\"Icon\":\"cogs\",\"CSSClass\":\"Field\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:FieldType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ECQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "EFg",
+        "typeId": "w",
+        "otherId": "EEg"
+      }
+    ]
+  },
+  {
+    "id": "EEQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:DisciplineType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EFA",
+        "typeId": "w",
+        "otherId": "EEg"
+      }
+    ]
+  },
+  {
+    "id": "EEg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:DisciplineOfInterestType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EEw",
+        "typeId": "w",
+        "otherId": "EEQ"
+      },
+      {
+        "id": "EFQ",
+        "typeId": "w",
+        "otherId": "ECA"
+      }
+    ]
+  },
+  {
+    "id": "EFw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:StandardCommitteeType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EGA",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "EIA",
+        "typeId": "BA",
+        "body": "Issuer",
+        "otherId": "BBg"
+      }
+    ]
+  },
+  {
+    "id": "EIg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ActorType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EIw",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "EJQ",
+        "typeId": "w",
+        "otherId": "Clg"
+      }
+    ]
+  },
+  {
+    "id": "EJw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ActivitiesType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EKA",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "EMA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ConventionType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EMQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "ENQ",
+        "typeId": "w",
+        "otherId": "EMw"
+      },
+      {
+        "id": "EOA",
+        "typeId": "w",
+        "otherId": "ENg"
+      }
+    ]
+  },
+  {
+    "id": "EMw",
+    "data": "{\"CSSClass\":\"StandardType\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:StandardType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ENA",
+        "typeId": "w",
+        "otherId": "EMA"
+      }
+    ]
+  },
+  {
+    "id": "ENg",
+    "data": "{\"UILevel\":\"10\",\"Icon\":\"life-ring\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:RuleType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ENw",
+        "typeId": "w",
+        "otherId": "EMA"
+      }
+    ]
+  },
+  {
+    "id": "EOQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:RepositoryType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EQA",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "ERA",
+    "data": "{\"Name\":\"KNVCompetencies\",\"Author\":\"Bruno Winck\",\"Release\":\"2.0.1\",\"Reference\":\"Description Of A Career (DOAC) is a semantic vocabulary\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVskos\",\"Release\":\"1.0.0\"},{\"Name\":\"KNVKnowledgeRepModel\",\"Release\":\"7.0.1\"}]},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../KNVImages/KNVIconCompetency.png\"},{\"href\":\"../KNVImages/KNVIconEducation.png\"},{\"href\":\"../KNVImages/KNViconJobPosition.png\"},{\"href\":\"../KNVImages/KNVIconEducationOrganization.png\"}]},\"FileTime\":\"Sat Jun 20 2020 13:26:41 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVCompetencies",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ERQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:EducationType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ERg",
+        "typeId": "w",
+        "otherId": "Dgw"
+      }
+    ]
+  },
+  {
+    "id": "ESA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ExperienceType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ESQ",
+        "typeId": "w",
+        "otherId": "Dgw"
+      },
+      {
+        "id": "EUw",
+        "typeId": "w",
+        "otherId": "EUQ"
+      }
+    ]
+  },
+  {
+    "id": "EUQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:JobPositionType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EUg",
+        "typeId": "w",
+        "otherId": "ESA"
+      }
+    ]
+  },
+  {
+    "id": "EVA",
+    "data": "{\"Priority\":\"450\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:CompetencyType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EVQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "EVw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:JobTitleType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EWA",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "EYA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:JobProfileType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EYQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "EZA",
+    "data": "{\"Name\":\"KNVDB\",\"Author\":\"Bruno Winck\",\"Release\":\"2.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVFOAF\",\"Release\":\"4.0.1\"}]},\"KNVOtherFiles\":{\"KNVOtherFile\":{\"href\":\"../../KNVStatics/KNVImages/KNVIconDBQuery.png\"}},\"FileTime\":\"Sat Jun 20 2020 14:36:48 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVDB",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EZQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:CatCatalogType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EZg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:CatFamilyType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EZw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:CatSupplierType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EaA",
+        "typeId": "w",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "EcA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:CatModelType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EcQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:CatMaterialType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Ecg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:FieldTypeType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Ecw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:FieldDimensionType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EdA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:FieldDictionnaryType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EdQ",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:UnitType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Edg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNVDB:FieldType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Edw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:SuppliesLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EgA",
+        "typeId": "Bw",
+        "otherId": "EeA"
+      }
+    ]
+  },
+  {
+    "id": "EeA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:IsSuppliedByLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EeQ",
+        "typeId": "Bw",
+        "otherId": "Edw"
+      }
+    ]
+  },
+  {
+    "id": "Egg",
+    "data": "{\"Name\":\"KNVDasboard\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":\"\\\\r\\\\n    \",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVDashboard.jsx\"}},\"KNVPlugins\":{\"KNVPlugin\":{\"Type\":\"GroupMenu\",\"TemplateBloc\":\"KNVGlossaryUserMenu\"}},\"FileTime\":\"Wed Jun 24 2020 23:27:23 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVDasboard",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EhA",
+    "data": "{\"Name\":\"KNVDiscourse\",\"Author\":\"Bruno Winck\",\"Release\":\"7.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVParagraph.htm\"}},\"UserPolicy\":\"\\\\r\\\\n  \",\"FileTime\":\"Mon Jul 06 2020 13:05:58 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVDiscourse",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "EhQ",
+    "data": "{\"UILevel\":\"7\",\"Requirements\":\"!Name;Link\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:FragmentType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Ekw",
+        "typeId": "w",
+        "otherId": "EkQ"
+      },
+      {
+        "id": "FAw",
+        "typeId": "w",
+        "otherId": "FAQ"
+      }
+    ]
+  },
+  {
+    "id": "Ehg",
+    "data": "{\"AttributeType\":{\"Name\":\"Header\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:Header",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ElQ",
+        "typeId": "BA",
+        "otherId": "EkQ"
+      }
+    ]
+  },
+  {
+    "id": "Ehw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:hasFragment",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EkA",
+        "typeId": "Bw",
+        "otherId": "EiA"
+      }
+    ]
+  },
+  {
+    "id": "EiA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:isFragmentOf",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "EiQ",
+        "typeId": "Bw",
+        "otherId": "Ehw"
+      }
+    ]
+  },
+  {
+    "id": "EkQ",
+    "data": "{\"Priority\":\"600\",\"Requirements\":\"!Name;Link;InheritScope\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PointType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Ekg",
+        "typeId": "w",
+        "otherId": "EhQ"
+      },
+      {
+        "id": "ElA",
+        "typeId": "BA",
+        "body": "Header",
+        "otherId": "Ehg"
+      },
+      {
+        "id": "EmA",
+        "typeId": "w",
+        "otherId": "Elg"
+      },
+      {
+        "id": "FUg",
+        "typeId": "Rw",
+        "otherId": "FSA"
+      }
+    ]
+  },
+  {
+    "id": "Elg",
+    "data": "{\"UILevel\":\"7\",\"Priority\":\"600\",\"Requirements\":\"!Name;Link;InheritScope\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PointUpdateType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Elw",
+        "typeId": "w",
+        "otherId": "EkQ"
+      }
+    ]
+  },
+  {
+    "id": "FAA",
+    "data": "{\"Name\":\"KNVEpistemology\",\"Author\":\"Bruno Winck\",\"Release\":\"6.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVDiscourse\",\"Release\":\"7.0.1\"}},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Wed Aug 12 2020 16:45:12 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVEpistemology",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FAQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:StatementType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FAg",
+        "typeId": "w",
+        "otherId": "EhQ"
+      }
+    ]
+  },
+  {
+    "id": "FBA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:QuoteType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FBQ",
+        "typeId": "w",
+        "otherId": "Q"
+      }
+    ]
+  },
+  {
+    "id": "FCA",
+    "data": "{\"Name\":\"KNVEvent\",\"Author\":\"Bruno Winck\",\"Release\":\"4.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}},\"FileTime\":\"Mon Oct 26 2020 21:07:00 GMT+0100 (Central European Standard Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVEvent",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FCQ",
+    "data": "{\"Priority\":\"600\",\"Icon\":\"calendar\",\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:EventType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FEA",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "FEg",
+        "typeId": "BA",
+        "body": "Date",
+        "otherId": "BkA"
+      },
+      {
+        "id": "FFA",
+        "typeId": "BA",
+        "body": "Duration",
+        "otherId": "BkQ"
+      }
+    ]
+  },
+  {
+    "id": "FFg",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PeriodType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FFw",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "FGQ",
+    "data": "{\"AttributeType\":{\"Name\":\"Adjustements\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:PeriodicAdjustementsSlot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FMg",
+        "typeId": "BA",
+        "otherId": "FIA"
+      }
+    ]
+  },
+  {
+    "id": "FIA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PeriodicEventType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FIQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      },
+      {
+        "id": "FIw",
+        "typeId": "BA",
+        "body": "AnchorDate",
+        "otherId": "BkA"
+      },
+      {
+        "id": "FJQ",
+        "typeId": "BA",
+        "body": "TimeZone",
+        "otherId": "Bkg"
+      },
+      {
+        "id": "FJw",
+        "typeId": "BA",
+        "body": "Periodicity",
+        "otherId": "BkQ"
+      },
+      {
+        "id": "FKQ",
+        "typeId": "BA",
+        "body": "Duration",
+        "otherId": "BkQ"
+      },
+      {
+        "id": "FMQ",
+        "typeId": "BA",
+        "body": "Adjustements",
+        "otherId": "FGQ"
+      },
+      {
+        "id": "FMw",
+        "typeId": "BA",
+        "body": "LastOccurence",
+        "otherId": "BkA"
+      },
+      {
+        "id": "FNQ",
+        "typeId": "BA",
+        "body": "NextOccurence",
+        "otherId": "BkA"
+      },
+      {
+        "id": "GBg",
+        "typeId": "w",
+        "otherId": "GAA"
+      },
+      {
+        "id": "GlA",
+        "typeId": "w",
+        "otherId": "GiA"
+      }
+    ]
+  },
+  {
+    "id": "FNw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TimeLineType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FOA",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "FQA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:OnlineEventType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GBA",
+        "typeId": "w",
+        "otherId": "GAA"
+      }
+    ]
+  },
+  {
+    "id": "FQg",
+    "data": "{\"Name\":\"KNVExternal\",\"Author\":\"Bruno Winck\",\"Release\":\"2.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"},{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}]},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVExternal.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/KNVExtURLsCheck.js\"},{\"href\":\"../../KneaverNode/KNVExtURLsExtract.js\"},{\"href\":\"../../KneaverNode/KNVExtURLsList.js\"},{\"href\":\"../../KneaverNode/KNVLib/KNVExternal.js\"},{\"href\":\"../../KneaverNode/KNVImages/KNVIconTerminal.png\"}]},\"FileTime\":\"Wed Jun 24 2020 17:23:05 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVExternal",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FQw",
+    "data": "{\"Requirements\":\"Name;ILinks;URL\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ExternalType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FRA",
+        "typeId": "w",
+        "otherId": "Q"
+      },
+      {
+        "id": "FRg",
+        "typeId": "BA",
+        "body": "URL",
+        "otherId": "BBQ"
+      },
+      {
+        "id": "FVw",
+        "typeId": "Rw",
+        "otherId": "FUw"
+      },
+      {
+        "id": "FYA",
+        "typeId": "w",
+        "otherId": "FWA"
+      }
+    ]
+  },
+  {
+    "id": "FSA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:CompletedByLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FSQ",
+        "typeId": "Rw",
+        "otherId": "BlQ"
+      },
+      {
+        "id": "FUQ",
+        "typeId": "Rw",
+        "otherId": "EkQ"
+      },
+      {
+        "id": "FVQ",
+        "typeId": "Bw",
+        "otherId": "FUw"
+      }
+    ]
+  },
+  {
+    "id": "FUw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:CompletesLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FVA",
+        "typeId": "Bw",
+        "otherId": "FSA"
+      },
+      {
+        "id": "FVg",
+        "typeId": "Rw",
+        "otherId": "FQw"
+      }
+    ]
+  },
+  {
+    "id": "FWA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TrackBackType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FWQ",
+        "typeId": "w",
+        "otherId": "FQw"
+      },
+      {
+        "id": "HOA",
+        "typeId": "w",
+        "otherId": "HNg"
+      }
+    ]
+  },
+  {
+    "id": "FYg",
+    "data": "{\"Name\":\"KNVFavorites\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVExternal\",\"Release\":\"2.0.0\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVFavorites.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":{\"href\":\"../../KneaverNode/ejs/KNVAddFavorites.ejs\"}},\"KNVPlugins\":{\"KNVPlugin\":[{\"Type\":\"UserMenu\",\"TemplateBloc\":\"KNVFavoritesUserMenu\"},{\"Type\":\"GroupMenu\",\"TemplateBloc\":\"KNVFavoritesUserMenu\"}]},\"FileTime\":\"Thu Jun 25 2020 15:36:27 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVFavorites",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FZA",
+    "data": "{\"Name\":\"KNVIdeaBox\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":\"\\\\r\\\\n    \",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVIdeaBox.jsx\"}},\"KNVPlugins\":{\"KNVPlugin\":{\"Type\":\"GroupMenu\",\"TemplateBloc\":\"KNVIdeaBoxUserMenu\"}},\"FileTime\":\"Wed Jun 24 2020 23:27:32 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVIdeaBox",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FZg",
+    "data": "{\"Name\":\"KNVImage\",\"Author\":\"Bruno Winck\",\"Release\":\"2.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVFOAF\",\"Release\":\"4.0.1\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVImage.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/KNVLib/KNVImage.incphp\"},{\"href\":\"../../KNVStatics/KNVImages/KNVIconScreenShot.png\"},{\"href\":\"../../KNVStatics/KNVImages/KNVIconPhoto.png\"}]},\"FileTime\":\"Wed Jun 24 2020 17:26:21 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVImage",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FZw",
+    "data": "{\"AttributeType\":{\"Name\":\"Code\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:BackPageCodeSlot",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FaA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PhotoType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FaQ",
+        "typeId": "w",
+        "otherId": "DWQ"
+      }
+    ]
+  },
+  {
+    "id": "FcQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ScreenShot",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Fcg",
+        "typeId": "w",
+        "otherId": "DWQ"
+      }
+    ]
+  },
+  {
+    "id": "FdA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:Sketch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FdQ",
+        "typeId": "w",
+        "otherId": "DWQ"
+      },
+      {
+        "id": "GWA",
+        "typeId": "w",
+        "otherId": "GVg"
+      },
+      {
+        "id": "GYQ",
+        "typeId": "w",
+        "otherId": "GWQ"
+      }
+    ]
+  },
+  {
+    "id": "FeA",
+    "data": "{\"Name\":\"KNVInductors\",\"Author\":\"Bruno Winck\",\"Release\":\"17.0.1\",\"KNVReqs\":\"\\\\r\\\\n    \",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVInductor.jsx\"}},\"FileTime\":\"Wed Jun 24 2020 17:23:17 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVInductors",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FeQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:MetaProcessType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Thg",
+        "typeId": "w",
+        "otherId": "ThA"
+      }
+    ]
+  },
+  {
+    "id": "FgA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:MetaProcessStepType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Fgw",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "HUQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "HkQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "IQQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "IkQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "JJA",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "JWQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "Jkg",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "QJw",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "QYA",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "QlQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "RKA",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "RYw",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "Rlg",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "SMQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "SZA",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "SmQ",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "TMg",
+        "typeId": "w",
+        "otherId": "FgQ"
+      },
+      {
+        "id": "TZw",
+        "typeId": "w",
+        "otherId": "FgQ"
+      }
+    ]
+  },
+  {
+    "id": "FgQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:InductorStepType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "Fgg",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "HUA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "HkA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "IQA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "IkA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "JIw",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "JWA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "JkQ",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "QJg",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "QWQ",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "QlA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "RJw",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "RYg",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "RlQ",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "SMA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "SYw",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "SmA",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "TMQ",
+        "typeId": "w",
+        "otherId": "FgA"
+      },
+      {
+        "id": "TZg",
+        "typeId": "w",
+        "otherId": "FgA"
+      }
+    ]
+  },
+  {
+    "id": "FhA",
+    "data": "{\"AttributeType\":{\"Name\":\"Date\",\"Type\":\"Date\"}}",
+    "typeId": "FgQ",
+    "names": [
+      {
+        "name": "KNV:InductorSearchWikipedia",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "FhQ",
+    "typeId": "FgQ",
+    "names": [
+      {
+        "name": "KNV:InductorQuestion",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FiQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Fkg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "HUw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "HVQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Hkw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "HlQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Hlw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "HmQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IAQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IAw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IQw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "IRQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "IRw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "ISQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IUQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IUw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Ikw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "IlQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Ilw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "ImQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JAQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JAw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JJg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JKA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JMA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JMg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JNA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JNg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JYQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JYw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JZQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JZw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JaQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JcQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JlA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Jlg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "JmA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QAA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QAg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QBA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QKQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QMQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QMw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QNQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QNw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QOQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QYg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QZA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QZg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QaA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QcA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Qcg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Qlw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "QmQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RAQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RAw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RBQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RBw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RMA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RMg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RNA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RNg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "ROA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RQA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RZQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RZw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RaQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "RcQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Rcw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RdQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RmA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SAA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SAg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SBA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SBg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SCA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SMw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SNQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SNw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SOQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SQQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SQw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SZg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "SaA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "ScA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Scg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SdA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Sdg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TAQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TAw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TBQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TBw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TCQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TEQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TNA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TNg",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TOA",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TQA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TQg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TRA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TaQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TcQ",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "Tcw",
+        "typeId": "BA",
+        "otherId": "Fhw"
+      },
+      {
+        "id": "TdQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Tdw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TeQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      }
+    ]
+  },
+  {
+    "id": "Fhg",
+    "typeId": "FgQ",
+    "names": [
+      {
+        "name": "KNV:InductorAddItem",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "IBQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "IVQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JBQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "JOA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Jcw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QBg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QQQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "QdA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RCQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "RQg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "Rdw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SEA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SRQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "SeA",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TEw",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TRg",
+        "typeId": "BA",
+        "otherId": "FkA"
+      },
+      {
+        "id": "TgQ",
+        "typeId": "BA",
+        "otherId": "FkA"
+      }
+    ]
+  },
+  {
+    "id": "Fhw",
+    "typeId": "FeQ",
+    "names": [
+      {
+        "name": "KNV:#My Knowledge.Inductor",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FiA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "HUg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Hkg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "HlA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Hlg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IQg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IRA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IRg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Ikg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IlA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Ilg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JJQ",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JJw",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JKQ",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JYA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JYg",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JZA",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Jkw",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JlQ",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Jlw",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QKA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QMA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QMg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QYQ",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QYw",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QZQ",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Qlg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QmA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RAA",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RKQ",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RMQ",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RMw",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RZA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RZg",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RaA",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Rlw",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RmQ",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SAQ",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SMg",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SNA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SNg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SZQ",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SZw",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SaQ",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TAA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TAg",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TBA",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TMw",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TNQ",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TNw",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TaA",
+        "typeId": "BA",
+        "body": "Read first : how to edit this item<athis tutorial<hrefhttp://www.kneaver.com/tutorials/first-steps/create-my-knowledge.htm><target_new>>",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TcA",
+        "typeId": "BA",
+        "body": "What is your goal ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Tcg",
+        "typeId": "BA",
+        "body": "what is your roadmap ?",
+        "otherId": "FhQ"
+      }
+    ]
+  },
+  {
+    "id": "FkA",
+    "typeId": "FeQ",
+    "names": [
+      {
+        "name": "skos:Concept.Inductor",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FkQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "HVA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "HmA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IAA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IAg",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IBA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "ISA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IUA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IUg",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "IVA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "ImA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JAA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JAg",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JBA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "JMQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JMw",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JNQ",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JNw",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "JZg",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JaA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "JcA",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Jcg",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "JmQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QAQ",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QAw",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QBQ",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "QNA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QNg",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QOA",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QQA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "QZw",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QaQ",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "QcQ",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Qcw",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "RAg",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RBA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RBg",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RCA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "RNQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RNw",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "ROQ",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RQQ",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "RcA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Rcg",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "RdA",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Rdg",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "SAw",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SBQ",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SBw",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SCQ",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "SOA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SQA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SQg",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SRA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "ScQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Scw",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "SdQ",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Sdw",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "TBg",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TCA",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TEA",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TEg",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "TOQ",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TQQ",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TQw",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TRQ",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      },
+      {
+        "id": "TdA",
+        "typeId": "BA",
+        "body": "How is it made ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "Tdg",
+        "typeId": "BA",
+        "body": "Who uses it ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TeA",
+        "typeId": "BA",
+        "body": "When was it defined ?",
+        "otherId": "FhQ"
+      },
+      {
+        "id": "TgA",
+        "typeId": "BA",
+        "body": "It is a special case of ?",
+        "otherId": "Fhg"
+      }
+    ]
+  },
+  {
+    "id": "FlQ",
+    "data": "{\"Name\":\"KNV:Learning\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVEvent\",\"Release\":\"4.0.1\"},{\"Name\":\"KNVKnowledgeRepModel\",\"Release\":\"7.0.1\"}]},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"KNVOtherFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Sun Jun 21 2020 10:01:56 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNV:Learning",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Flg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:LearningExperienceType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FmQ",
+        "typeId": "w",
+        "otherId": "Flw"
+      }
+    ]
+  },
+  {
+    "id": "Flw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:CourseType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "FmA",
+        "typeId": "w",
+        "otherId": "Flg"
+      },
+      {
+        "id": "GAg",
+        "typeId": "w",
+        "otherId": "GAA"
+      }
+    ]
+  },
+  {
+    "id": "GAA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:OnlineCourseType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GAQ",
+        "typeId": "w",
+        "otherId": "Flw"
+      },
+      {
+        "id": "GAw",
+        "typeId": "w",
+        "otherId": "FQA"
+      },
+      {
+        "id": "GBQ",
+        "typeId": "w",
+        "otherId": "FIA"
+      }
+    ]
+  },
+  {
+    "id": "GBw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:EducationOrganizationType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GCA",
+        "typeId": "w",
+        "otherId": "Dgw"
+      },
+      {
+        "id": "GEA",
+        "typeId": "w",
+        "otherId": "DKA"
+      },
+      {
+        "id": "GFA",
+        "typeId": "w",
+        "otherId": "GEg"
+      }
+    ]
+  },
+  {
+    "id": "GEg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:OnlineEducationOrganizationType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GEw",
+        "typeId": "w",
+        "otherId": "GBw"
+      }
+    ]
+  },
+  {
+    "id": "GFg",
+    "data": "{\"Name\":\"KNVLegacy\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"FileTime\":\"Thu May 24 2018 12:42:24 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVLegacy",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GGA",
+    "data": "{\"Name\":\"KNVMap\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVTemplateFiles\":{\"KNVTemplateFile\":[{\"href\":\"../../KneaverNode/KNVTemplates/KNVSVG.jsx\"},{\"href\":\"../../KneaverNode/KNVTemplates/KNVFreeMind.htm\"}]},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/ejs/KNVMap.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVMapSVG.ejs\"}]},\"UserPolicy\":{\"MapMode\":\"SVG\",\"MapLayout\":\"3\",\"MapLevel\":\"3\",\"MapMMLevel\":\"5\",\"UILevelForMap\":\"15\"},\"FileTime\":\"Thu Jun 25 2020 15:36:14 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVMap",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GIA",
+    "data": "{\"Name\":\"KNVMicroBlog\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVMicroBlog.jsx\"}},\"KNVCSSFiles\":{\"KNVCSSFile\":{\"href\":\"../../KNVStatic/KNVMicroBlog.css\"}},\"KNVPlugins\":{\"KNVPlugin\":{\"Type\":\"PriorityUserMenu\",\"TemplateBloc\":\"KNVMicroBlogUserMenu\"}},\"FileTime\":\"Wed Jun 24 2020 17:25:43 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVMicroBlog",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GIQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:MicroBlogType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GIg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:MicroBlogEntryType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GJA",
+    "data": "{\"Name\":\"KNVNotes\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":\"\\\\r\\\\n    \",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVNotes.jsx\"}},\"KNVPlugins\":{\"KNVPlugin\":{\"Type\":\"UserMenu\",\"TemplateBloc\":\"KNVNotesUserMenu\"}},\"FileTime\":\"Wed Jun 24 2020 23:27:49 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVNotes",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GJQ",
+    "data": "{\"Requirements\":\"!Name;Link\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:CommentType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HNQ",
+        "typeId": "w",
+        "otherId": "HMw"
+      }
+    ]
+  },
+  {
+    "id": "GJg",
+    "data": "{\"Requirements\":\"!Name;Link;Private\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:NoteType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GKA",
+    "data": "{\"Name\":\"KNVPPT\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":\"\\\\r\\\\n    \",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVPPT.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/KNVPPT.js\"},{\"href\":\"../../KneaverNode/KNVStartPresentation.js\"},{\"href\":\"../../KneaverNode/KNVImages/KNVIconPPT.png\"},{\"href\":\"../../KNVStatic/PPT/script.js\"},{\"href\":\"../../KNVStatic/PPT/error.htm\"},{\"href\":\"../../KNVStatic/PPT/buttons.gif\"},{\"href\":\"../../KNVStatic/PPT/master03_stylesheet.css\"},{\"href\":\"../../KNVStatic/PPT/notes_flag.gif\"},{\"href\":\"../../KNVStatic/PPT/preview.wmf\"}]},\"FileTime\":\"Wed Jun 24 2020 17:25:53 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVPPT",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GMA",
+    "data": "{\"Name\":\"KNVProcess\",\"Author\":\"Bruno Winck\",\"Release\":\"6.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVKnowledgeRepModel\",\"Release\":\"2.0.0\"}},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Thu May 24 2018 12:42:24 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVProcess",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GMQ",
+    "data": "{\"UILevel\":\"10\",\"Icon\":\"tasks\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TaskType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GMg",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "GNA",
+    "data": "{\"UILevel\":\"10\",\"CSSClass\":\"ProcedureType\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ProcedureType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GNQ",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "GNw",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:ProcessStepType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GOA",
+        "typeId": "w",
+        "otherId": "CJg"
+      }
+    ]
+  },
+  {
+    "id": "GQQ",
+    "data": "{\"Name\":\"KNVPrompts\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVskos\",\"Release\":\"1.0.2\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVPrompts.jsx\"}},\"FileTime\":\"Mon Jul 27 2020 11:52:17 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVPrompts",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GQg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:QuestionType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GQw",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "GRQ",
+    "data": "{\"UILevel\":\"10\",\"Icon\":\"question\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:PromptType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GRg",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "GSA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:QuestionnaireType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GSQ",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "GUQ",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:answeredByLinkType",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GUw",
+    "data": "{\"Name\":\"KNVRSS\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":\"\",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVRSS.htm\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":{\"href\":\"../../KneaverNode/ejs/KNVRSS.ejs\"}},\"FileTime\":\"Thu May 24 2018 12:42:24 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVRSS",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GVQ",
+    "data": "{\"Name\":\"KNVSVGSketch\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVImage\",\"Release\":\"2.0.1\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVSVGSketch.jsx\"}},\"KNVOtherFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Wed Jun 24 2020 17:23:24 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVSVGSketch",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GVg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:SVGSketch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GVw",
+        "typeId": "w",
+        "otherId": "FdA"
+      }
+    ]
+  },
+  {
+    "id": "GWQ",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:SVGIconSketch",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GYA",
+        "typeId": "w",
+        "otherId": "FdA"
+      }
+    ]
+  },
+  {
+    "id": "GYw",
+    "data": "{\"Name\":\"KNVSemantic\",\"Author\":\"Bruno Winck\",\"Release\":\"6.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"},{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}]},\"KNVTemplateFiles\":\"\\\\r\\\\n    \",\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Fri Jun 26 2020 19:41:45 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVSemantic",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GZA",
+    "data": "{\"Requirements\":\"Name\",\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:AcronymType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GZQ",
+        "typeId": "w",
+        "otherId": "Q"
+      }
+    ]
+  },
+  {
+    "id": "GZw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:AsSameMeaningAsLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GaA",
+        "typeId": "BA",
+        "body": "Distance",
+        "otherId": "Bkw"
+      },
+      {
+        "id": "Gcg",
+        "typeId": "w",
+        "otherId": "GcA"
+      },
+      {
+        "id": "GdQ",
+        "typeId": "w",
+        "otherId": "Gcw"
+      }
+    ]
+  },
+  {
+    "id": "GcA",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:IsSynonymWithLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GcQ",
+        "typeId": "w",
+        "otherId": "GZw"
+      }
+    ]
+  },
+  {
+    "id": "Gcw",
+    "typeId": "g",
+    "names": [
+      {
+        "name": "KNV:IsTranslationOfLinkType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GdA",
+        "typeId": "w",
+        "otherId": "GZw"
+      }
+    ]
+  },
+  {
+    "id": "Gdw",
+    "data": "{\"Name\":\"KNVActivityStreams\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVKnowledgeRepModel\",\"Release\":\"7.0.1\"},{\"Name\":\"KNVEvent\",\"Release\":\"4.0.1\"}]},\"KNVTemplateFiles\":{\"KNVTemplateFile\":[{\"href\":\"../../KneaverNode/KNVTemplates/KNVStreams.jsx\"},{\"href\":\"../../KneaverNode/KNVTemplates/KNVChat.jsx\"},{\"href\":\"../../KneaverNode/KNVTemplates/KNVDiigo.jsx\"}]},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../KNVStreams/KNVStreams.dll\"},{\"href\":\"../../KneaverNode/KNVLib/KNVStreamsLib.js\"},{\"href\":\"../../KneaverNode/KNVLib/KNVChatHelpers.js\"},{\"href\":\"../../KneaverNode/KNVLib/KNVActivities.js\"},{\"href\":\"../../KneaverNode/ejs/KNVChat.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVChats.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVChatControlPanel.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVChatGetTweets.js\"},{\"href\":\"../../KneaverNode/ejs/KNVChatVisuals.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVChatRunner.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVScrap.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVStreams.js\"},{\"href\":\"../../KneaverNode/ejs/KNVStreamsSettings.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVStreamsWatch.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVTwitter.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVTwitterRecorder.js\"},{\"href\":\"../../KNVStatic/KNVStreams.less\"}]},\"UserPolicy\":\"\\\\r\\\\n  \",\"FileTime\":\"Thu Feb 11 2021 11:51:20 GMT+0100 (Central European Standard Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVActivityStreams",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "GeA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TwitterHandleType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GeQ",
+        "typeId": "BA",
+        "body": "Name",
+        "otherId": "BiA"
+      },
+      {
+        "id": "GgQ",
+        "typeId": "BA",
+        "body": "Track",
+        "otherId": "BiQ"
+      }
+    ]
+  },
+  {
+    "id": "Ggw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TwitterHashtagType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GhA",
+        "typeId": "BA",
+        "body": "Hashtag",
+        "otherId": "BlA"
+      },
+      {
+        "id": "Ghg",
+        "typeId": "BA",
+        "body": "Track",
+        "otherId": "BiQ"
+      },
+      {
+        "id": "Gkg",
+        "typeId": "w",
+        "otherId": "GiA"
+      }
+    ]
+  },
+  {
+    "id": "GiA",
+    "data": "{\"UILevel\":\"10\",\"Icon\":\"wechat\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:TwitterChatType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "GiQ",
+        "typeId": "w",
+        "otherId": "Dgw"
+      },
+      {
+        "id": "GkQ",
+        "typeId": "w",
+        "otherId": "Ggw"
+      },
+      {
+        "id": "Gkw",
+        "typeId": "w",
+        "otherId": "FIA"
+      },
+      {
+        "id": "GlQ",
+        "typeId": "BA",
+        "body": "DedicatedModerator",
+        "otherId": "BiA"
+      },
+      {
+        "id": "Glw",
+        "typeId": "BA",
+        "body": "Moderators",
+        "otherId": "BiA"
+      }
+    ]
+  },
+  {
+    "id": "GmQ",
+    "data": "{\"AttributeType\":{\"Name\":\"id\",\"Type\":\"String\"}}",
+    "typeId": "linktype",
+    "names": [
+      {
+        "name": "KNV:TweetId",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HBA",
+        "typeId": "BA",
+        "otherId": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "HAA",
+    "data": "{\"Requirements\":\"Name;ILinks;URL\",\"Priority\":\"600\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:RemarkableTweetType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HAQ",
+        "typeId": "w",
+        "otherId": "Q"
+      },
+      {
+        "id": "HAw",
+        "typeId": "BA",
+        "body": "id",
+        "otherId": "GmQ"
+      },
+      {
+        "id": "HBQ",
+        "typeId": "BA",
+        "body": "text",
+        "otherId": "iA"
+      }
+    ]
+  },
+  {
+    "id": "HCA",
+    "data": "{\"Name\":\"KNVWordPress\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVWordPress.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../../KneaverNode/KNVLib/KNVWordPress.js\"},{\"href\":\"../../KneaverNode/KNVLib/KNVWordPressChats.js\"},{\"href\":\"../../KneaverNode/KNVLib/KNVWordPressLib.js\"},{\"href\":\"../../KneaverNode/routes/KNVWordPress.js\"},{\"href\":\"../../KneaverNode/ejs/KNVWordPress.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVWordPressPublish.ejs\"},{\"href\":\"../../KneaverNode/ejs/KNVWordPressCache.ejs\"},{\"href\":\"../../KneaverNode/KNVWordPress.js\"}]},\"UserPolicy\":\"\\\\r\\\\n    \",\"FileTime\":\"Wed Jun 24 2020 17:27:13 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVWordPress",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "HEA",
+    "data": "{\"Name\":\"KNVYellowPage\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"},{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"},{\"Name\":\"KNVFOAF\",\"Release\":\"1.0.0\"}]},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVYellowPage.jsx\"}},\"FileTime\":\"Mon Jul 06 2020 13:33:16 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVYellowPage",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "HEQ",
+    "data": "{\"UILevel\":\"7\",\"CSSClass\":\"CompanyType\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:CompanyType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HEg",
+        "typeId": "w",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "HFA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:YellowPageType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HFQ",
+        "typeId": "Blg",
+        "otherId": "DKA"
+      }
+    ]
+  },
+  {
+    "id": "HGA",
+    "data": "{\"Name\":\"KNVeLearning\",\"Author\":\"Bruno Winck\",\"Release\":\"1.0.1\",\"Reference\":\"\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVeLearning.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":{\"href\":\"../../KNVStatics/KNVStatic/KNVeLearning.css\"}},\"FileTime\":\"Wed Jun 24 2020 17:26:37 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVeLearning",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "HJg",
+    "data": "{\"Name\":\"KNVBlog\",\"Author\":\"Bruno Winck\",\"Release\":\"2.0.1\",\"KNVReqs\":{\"KNVReq\":[{\"Name\":\"KNVExternal\",\"Release\":\"2.0.0\"},{\"Name\":\"KNVRefData\",\"Release\":\"2.0.0\"},{\"Name\":\"KNVStdInfo\",\"Release\":\"6.0.1\"}]},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVBlog.jsx\"}},\"KNVOtherFiles\":{\"KNVOtherFile\":[{\"href\":\"../KNVImages/KNVIconBlogComment.png\"},{\"href\":\"../KNVImages/KNVIconBlogEntry.png\"},{\"href\":\"../KNVImages/KNVIconTrackBack.png\"}]},\"KNVPlugins\":{\"KNVPlugin\":{\"Type\":\"UserMenu\",\"TemplateBloc\":\"KNVBlogUserMenu\"}},\"FileTime\":\"Wed Jun 24 2020 23:27:15 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVBlog",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "HJw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:BlogType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HKA",
+        "typeId": "w",
+        "otherId": "Blg"
+      }
+    ]
+  },
+  {
+    "id": "HMA",
+    "data": "{\"UILevel\":\"10\"}",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:BlogEntryType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HMQ",
+        "typeId": "w",
+        "otherId": "BlQ"
+      }
+    ]
+  },
+  {
+    "id": "HMw",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:BlogCommentType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HNA",
+        "typeId": "w",
+        "otherId": "GJQ"
+      }
+    ]
+  },
+  {
+    "id": "HNg",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:BlogTrackBackType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "HNw",
+        "typeId": "w",
+        "otherId": "FWA"
+      }
+    ]
+  },
+  {
+    "id": "Tgw",
+    "data": "{\"Name\":\"KNVLaunchpad\",\"Author\":\"Bruno Winck\",\"Release\":\"17.0.1\",\"KNVReqs\":{\"KNVReq\":{\"Name\":\"KNVInductors\",\"Release\":\"17.0.0\"}},\"KNVTemplateFiles\":{\"KNVTemplateFile\":{\"href\":\"../../KneaverNode/KNVTemplates/KNVLaunchpad.jsx\"}},\"FileTime\":\"Wed Aug 12 2020 16:45:39 GMT+0200 (Central European Summer Time)\"}",
+    "typeId": "Jw",
+    "names": [
+      {
+        "name": "KNVLaunchpad",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "ThA",
+    "typeId": "type",
+    "names": [
+      {
+        "name": "KNV:SlateType",
+        "role": "title"
+      }
+    ],
+    "links": [
+      {
+        "id": "ThQ",
+        "typeId": "w",
+        "otherId": "FeQ"
+      }
+    ]
+  },
+  {
+    "id": "Thw",
+    "typeId": "FgQ",
+    "names": [
+      {
+        "name": "KNV:SingleTemplateSlate",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "TiA",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadIntro",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "TiQ",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadBioPublic",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "TkA",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadBioPriv",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "TkQ",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadSocial",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Tkg",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadPKM",
+        "role": "title"
+      }
+    ]
+  },
+  {
+    "id": "Tkw",
+    "typeId": "ThA",
+    "names": [
+      {
+        "name": "KNV:LaunchpadPLN",
+        "role": "title"
+      }
+    ]
+  }
+]
