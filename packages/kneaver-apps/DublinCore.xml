@@ -1,0 +1,177 @@
+<KNVApp Name="DublinCore" Author="Bruno Winck" Release="7.0.1" >
+    <References>
+        http://dublincore.org/documents/usageguide/elements.shtml
+        http://purl.org/dc/elements/1.1/ (rdf elements)
+    </References>
+    <KNVReqs/>
+    <Changes>
+        <Change Date="2009/03/18" Author="Bruno Winck" Description="Initial Coding"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="dc:title" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:title" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:creator" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:creator" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:subject" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:subject" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:description" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:description" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:publisher" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:publisher" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:contributor" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:contributor" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:date" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:date" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:type" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:type" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:format" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:format" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:identifier" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:identifier" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:source" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:source" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:language" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:language" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:relation" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:relation" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:coverage" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:coverage" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="dc:rights" Type="owl:DatatypeProperty">
+            <XMLData>
+        	<AttributeType Name="dc:rights" Type="String" />
+            </XMLData>
+        </KNVItem>
+        I don't remember what is this list, not in dcelements.rdf which is fully copied above
+        It is in http://dublincore.org/documents/domain-range/ DCITerms
+        MediaTypeOrExtent
+        Agent
+        LinguisticSystem
+        LocationPeriodOrJurisdiction
+        Audience
+        Alternative Title
+        Table Of Contents
+        Abstract
+        Date Created
+        Date Valid
+        Date Available
+        Date Issue
+        Date Modified
+        Extent
+        Medium
+        Is Version Of
+        Has Version
+        Is Replaced By
+        Replaces
+        Is Required By
+        Requires
+        Is Part Of
+        HasPart
+        Is Referenced By
+        References
+        Is Format Of
+        Has Format
+        Conforms To
+        Spatial coverage
+        Temporal Coverage
+        Mediator
+        Date Accepted
+        Data Copyrighted
+        Date Submitted
+        Audience Education Level
+        AccessRights
+        Bibliographic Citation
+        License
+        Rights Holder
+        Provenance
+        Instructional Method
+        Accrual Method
+        Accrual Periodicity
+        Accrual Policy
+        Agent
+        Agent Class
+        Bibliographic Resource
+        File Format
+        Frequency
+        Jurisdiction
+        License Document
+        Linguistic System
+        Location
+        Location, Period, or Jurisdiction
+        Media Type
+        Method of Instruction
+        Method of Accrual
+        Period of Time
+        Physical Medium
+        Physical Resource
+        Policy
+        Provenance Statement
+        Rights Statement
+        Size or Duration
+        Standard
+        ISO 639-2 FRE ANG
+        RFC 1766 Set of Lang
+        URI
+        DCMI Point
+        ISO 3166 Countries
+        DCMI Box
+        DCMI Period
+        W3C-DTF Date
+        RFC 3066 Language
+        RFC 4646 id
+        ISO 639-3 id
+        LCSH label concepts
+        MeSH Mecical concepts
+        DDC dewey
+        LCC ceoneptual resources
+        UDC decimal calssif
+        DCMI Type Vocabulary
+        IMT Media Type
+        TGN Set of places
+        NLM medical terms
+
+        type: Collection, DataSet, Event, Image, Interactive Resource, Service, Software, Sounds, Text, Physical object, Stil Image, Moving Image
+
+    </KNVItems>
+</KNVApp>

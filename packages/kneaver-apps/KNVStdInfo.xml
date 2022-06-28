@@ -1,0 +1,178 @@
+<KNVApp Name="KNVStdInfo" Author="Bruno Winck" Release="6.0.1" >
+    <KNVReqs>
+        <KNVReq Name="KNVRefData" Release="2.0.0"/>
+    </KNVReqs>
+    <Changes>
+        <Change Date="2007/07/18" Author="Bruno Winck" Description="Initial Coding"/>
+        <Change Date="2012/12/11" Author="Bruno Winck" Description="Added DistanceSlot, TranslationOf, prefixed NameSlot"/>
+        <Change Date="2014/09/13" Author="Bruno Winck" Description="Renamed xxSlot by xxAttribute"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="KNV:NameAttribute" Type="owl:DatatypeProperty">
+            <OldNames>
+        	<OldName Name="NameSlot" />
+        	<OldName Name="KNV:NameSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Name" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:EnabledAttribute" Type="owl:DatatypeProperty">
+            <OldNames>
+        	<OldName Name="KNV:EnabledSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Enabled" Type="Boolean" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:DateAttribute" Type="owl:DatatypeProperty">
+            <OldNames>
+        	<OldName Name="DateSlot" />
+        	<OldName Name="KNV:DateSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Date" Type="Date" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:DurationAttribute" Type="owl:DatatypeProperty">
+            <Body>Duration is following ISO 8601 conventions for duration, trailing P may be omitted, if no element is indicated it defaults to minutes. 60 will be 60 minutes same as P60TM. P1M is one month, P1W is one week. See http://en.wikipedia.org/wiki/ISO_8601#Durations </Body>
+            <OldNames>
+        	<OldName Name="DurationSlot" />
+        	<OldName Name="KNV:DurationSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Duration" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:TimezoneAttribute" Type="owl:DatatypeProperty">
+            <Body>Timezone indication</Body>
+            <OldNames>
+        	<OldName Name="KNV:TimezoneSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="TimeZone" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:DistanceAttribute" Type="owl:DatatypeProperty">
+            <OldNames>
+        	<OldName Name="KNV:DistanceSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Distance" Type="Double" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:HashtagAttribute" Type="owl:DatatypeProperty">
+            <Body>hashtag will be store without the leading # and will not allow a leading # or spaces</Body>
+            <OldNames>
+        	<OldName Name="KNV:HashtagSlot" />
+            </OldNames>
+            <XMLData>
+        	<AttributeType Name="Hashtag" Type="String" />
+            </XMLData>
+        </KNVItem>
+        <KNVItem Name="KNV:TopicType" Type="owl:Class">
+            <XMLData 
+              Requirements="Name"
+              Priority="1000"
+              Icon="paperclip"
+              />
+        </KNVItem>
+        <KNVItem Name="KNV:ContainerType" Type="owl:Class">
+            <XMLData
+              UILevel="7"
+              Priority="790"
+              Icon="folder-open"
+              />
+            <Body> 
+            Use KNV:ContainerType like you would use a folder of notes.   
+            It is below KNV:Topic to carry a name and be listed in possible types
+            However the default link type will be KNV:IsMemberOfLinkType, a hiearchical link type
+            as opposed to RelatedTo for KNV:TopicType
+            </Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:TopicType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:IsMemberOfLinkType" Type="owl:ObjectProperty">
+        </KNVItem>
+        <KNVItem Name="KNV:ContainLinkType" Type="owl:ObjectProperty">
+            <KNVItemLinks>
+        	<KNVItemLink Type="owl:inverseOf" Other="KNV:IsMemberOfLinkType" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:PostType" Type="owl:Class">
+            <XMLData 
+              Priority="450"
+              />
+            <OldNames><OldName Name="PostType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:TopicType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:StoryType" Type="owl:Class">
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="StoryType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:TopicType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:ParticipateToLinkType" Type="owl:ObjectProperty">
+          <OldNames>
+            <OldName Name="ParticipateToLinkType" />
+          </OldNames>
+          <KNVItemLinks>
+            <KNVItemLink Action="Deferred" Type="owl:inverseOf" Other="KNV:AsParticipantToLinkType" />
+          </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:AsParticipantToLinkType" Type="owl:ObjectProperty">
+            <KNVItemLinks>
+        	<KNVItemLink Type="owl:inverseOf" Other="KNV:ParticipateToLinkType" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:PhysicalType" Type="owl:Class">
+            <OldNames>
+        	<OldName Name="PhysicalType" />
+            </OldNames>
+        </KNVItem>
+        <KNVItem Name="KNV:ImmaterialType" Type="owl:Class">
+            <OldNames><OldName Name="ImmaterialType" /></OldNames>
+        </KNVItem>
+        <KNVItem Name="KNV:GhostType" Type="owl:Class">
+            <OldNames><OldName Name="GhostType" /></OldNames>
+        </KNVItem>
+    </KNVItems>
+    <KNVUpdates>
+        <KNVUpdate After="6">
+            <KNVMoveTypes NamePattern="*.'s Favorites" FromType="skos:Concept"  ToType="KNV:ContainerType"/>
+            <KNVMoveTypes NamePattern="*.'s Knowledge" FromType="skos:Concept"  ToType="KNV:ContainerType"/>
+        </KNVUpdate>
+    </KNVUpdates>
+    <KNVTemplateFiles>
+    </KNVTemplateFiles>
+    <UserPolicy
+        AutoExplain="0"
+        BackupEvery="10"
+        GraphicStd="SVG"
+        GuidePosLeft="381px"
+        GuidePosTop="120px"
+        PopUpEdit="1"
+        PopUpKneave="1"
+        PopUpUnlink="1"
+        PopUpDelete="1"
+        PopUpStayForKNVAddAfterKneave="1"
+        PopUpWikiCreate="1"
+        RepeatButton="20"
+        ShowStyleNames="0"
+        UseAJAX="1"
+        UILevel="5"
+        UseGuides="1"
+        UseScope="0"
+        WithEditButton="0"
+        WithFormatting="0"
+        >
+        UILevel Was 10 before, Is a setting from Site
+        UILevel = 0 = reader
+        UILevel = 5 Novice
+        New users starts as a Reader, can only comment with items in his scope
+    </UserPolicy>
+</KNVApp>

@@ -1,0 +1,180 @@
+<KNVApp Name="KNVFOAF" Author="Bruno Winck" Release="4.0.1" >
+  <Reference>FOAF (an acronym of Friend of a Friend) is a machine-readable ontology describing persons</Reference>
+  <text>see http://xmlns.com/foaf/spec</text>
+  <KNVReqs>
+    <KNVReq Name="KNVStdInfo" Release="6.0.1"/>
+    <KNVReq Name="KNVskos" Release="1.0.0"/>
+  </KNVReqs>
+  <Changes>
+    <Change Date="2009/03/10" Author="Bruno Winck" Description="Initial Coding"/>
+  </Changes>
+  <KNVItems>
+    <KNVItem Name="foaf:Agent" Type="owl:Class">
+      <OldNames>
+        <OldName Name="AgentType" />
+        <OldName Name="KNV:AgentType" />
+      </OldNames>
+      <Body>Anything that can act: Person, Organization, Software</Body>
+    </KNVItem>
+    <KNVItem Name="foaf:name" Type="owl:DatatypeProperty">
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:NameAttribute" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:page" Type="owl:DatatypeProperty">
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:URLSlot" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:Document" Type="owl:Class">
+      <XMLData 
+        UILevel="7"
+        Priority="400"
+        Icon="file-text"
+        />
+    </KNVItem>
+    <KNVItem Name="foaf:topic" Type="owl:DatatypeProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="owl:inverseOf" Other="foaf:page" />
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Document" />
+      </KNVItemLinks>
+      <Body>This is a domain topic, different from KNV:TopicType</Body>
+    </KNVItem>
+    <KNVItem Name="foaf:homepage" Type="owl:DatatypeProperty">
+      <KNVItemLinks>
+        <KNVItemLink Other="foaf:page" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:Person" Type="owl:Class">
+      <XMLData 
+        Priority="850"
+        Icon="user"
+        CSSClass="PersonType"
+        />
+      <OldNames>
+        <OldName Name="PersonType" />
+        <OldName Name="KNV:PersonType" />
+      </OldNames>
+      <Body>see also http://schema.org/Person</Body>
+      <KNVItemLinks>
+        <KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="foaf:Agent" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="KNV:PhysicalType" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="foaf:name" Type="KNV:AttributeLinkType" PreWord="Name"/>
+        <KNVItemLink Other="foaf:homepage" Type="KNV:AttributeLinkType" PreWord="HomePage"/>
+        <KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="Birthdate"/>
+        <!-- BornCitizen of, BirthPlace, FirstName, LastName, Gender, Title, Language, Languages -->
+        <!-- TwitterHandle, FacebookHandle, -->
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:Group" Type="owl:Class">
+      <XMLData 
+        UILevel="7"
+        Priority="400"
+        Icon="group"
+        />
+      <KNVItemLinks>
+        <KNVItemLink Other="foaf:Agent" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:Organization" Type="owl:Class">
+      <XMLData 
+        Priority="800"
+        Icon="university"
+        CSSClass="OrganizationType"
+        />
+      <OldNames>
+        <OldName Name="OrganizationType" />
+        <OldName Name="KNV:OrganizationType" />
+      </OldNames>
+      <Body>Address, Concrete, Morale</Body>
+      <KNVItemLinks>
+        <KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="foaf:Agent" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="KNV:ImmaterialType" Type="rdfs:subClassOf" />
+        <KNVItemLink Other="foaf:name" Type="KNV:AttributeLinkType" PreWord="Name"/>
+        <KNVItemLink Other="foaf:homepage" Type="KNV:AttributeLinkType" PreWord="HomePage"/>
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:OnlineAccount" Type="owl:Class">
+      <KNVItemLinks>
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:PersonalProfileDocument" Type="owl:Class">
+      <KNVItemLinks>
+        <KNVItemLink Other="foaf:Document" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:member" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Group" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:knows" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Person" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:focus" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Person" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:based_near" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Person" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="KNV:FriendOfType" Type="owl:ObjectProperty">
+      <OldNames>
+        <OldName Name="FriendOfType" />
+      </OldNames>
+    </KNVItem>
+    <KNVItem Name="foaf:primaryTopic" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Document" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:Image" Type="owl:Class">
+      <XMLData 
+        UILevel="6"
+        Priority="600"
+        Icon="file-image-o"
+        />
+      <Body>see also http://schema.org/ImageObject</Body>
+      <OldNames>
+        <OldName Name="KNVImageType" />
+        <OldName Name="KNV:ImageType" />
+      </OldNames>
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:TerminalType" Type="rdfs:subClassOf"/>
+        <KNVItemLink Other="foaf:Document" Type="rdfs:subClassOf"/>
+        <KNVItemLink Action="Deferred" Other="KNV:BackPageCodeSlot" Type="KNV:AttributeLinkType" PreWord="Code"/>
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:depiction" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:depicts" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="owl:inverseOf" Other="foaf:depiction" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:img" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Person" />
+        <KNVItemLink Other="foaf:depiction" Type="rdfs:subClassOf"/>
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="foaf:thumbnail" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:domain" Other="foaf:Person" />
+        <KNVItemLink Other="foaf:depiction" Type="rdfs:subClassOf"/>
+      </KNVItemLinks>
+    </KNVItem>
+  </KNVItems>
+  <KNVOtherFiles>
+    <KNVOtherFile href="../../KNVStatics/KNVImages/KNVIconFriendOf.png"/>
+  </KNVOtherFiles>
+</KNVApp>

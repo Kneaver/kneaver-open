@@ -1,0 +1,61 @@
+<KNVApp Name="KNVDiscourse" Author="Bruno Winck" Release="7.0.1" >
+  <KNVReqs>
+    <KNVReq Name="KNVRefData" Release="2.0.0"/>
+  </KNVReqs>
+  <Changes>
+    <Change Date="2015/01/03" Author="Bruno Winck" Description="Initial Coding"/>
+  </Changes>
+  <KNVItems>
+    <KNVItem Name="KNV:FragmentType" Type="owl:Class">
+      <XMLData 
+        UILevel="7"
+        Requirements="!Name;Link"
+      />
+    </KNVItem>
+    <KNVItem Name="KNV:Header" Type="owl:DatatypeProperty">
+      <XMLData>
+        <AttributeType Name="Header" Type="String" />
+      </XMLData>
+    </KNVItem>
+    <KNVItem Name="KNV:hasFragment" Type="owl:ObjectProperty">
+      <Body>Could be used on pictures as well, necessary for Scope 0</Body>
+    </KNVItem>
+    <KNVItem Name="KNV:isFragmentOf" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="owl:inverseOf" Other="KNV:hasFragment" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="KNV:PointType" Type="owl:Class">
+      <OldNames><OldName Name="PointType" /></OldNames>
+      <Body>KNV:PointType are like paragraphs, they can have title</Body>
+      <XMLData 
+        Priority="600"
+        Requirements="!Name;Link;InheritScope"
+        />
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:FragmentType" Type="rdfs:subClassOf" />
+        <KNVItemLink Type="KNV:AttributeLinkType" Other="KNV:Header" PreWord="Header"/>
+        <KNVItemLink Action="Drop" Other="KNV:TopicType" Type="rdfs:subClassOf" />
+        <KNVItemLink Action="Drop" Other="skos:Concept" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="KNV:PointUpdateType" Type="owl:Class">
+      <Body>KNV:PointUpdateType are updates kinda pointTypes, the default title is Update x: date</Body>
+      <XMLData 
+        UILevel="7"
+        Priority="600"
+        Requirements="!Name;Link;InheritScope"
+        />
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:PointType" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+  </KNVItems>
+  <KNVUpdates>
+  </KNVUpdates>
+  <KNVTemplateFiles>
+      <KNVTemplateFile href="../../KneaverNode/KNVTemplates/KNVParagraph.htm"/>
+  </KNVTemplateFiles>
+  <UserPolicy>
+  </UserPolicy>
+</KNVApp>

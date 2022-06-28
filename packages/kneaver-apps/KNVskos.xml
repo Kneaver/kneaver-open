@@ -1,0 +1,151 @@
+<KNVApp Name="KNVskos" Author="Bruno Winck" Release="1.0.2" >
+  <KNVReqs>
+    <KNVReq Name="KNVStdInfo" Release="6.0.1"/>
+  </KNVReqs>
+  <Changes>
+    <Change Date="2015/08/29" Author="Bruno Winck" Description="Initial Coding"/>
+  </Changes>
+  <KNVItems>
+    <KNVItem Name="owl:SymmetricProperty" Type="owl:ObjectProperty">
+    </KNVItem>
+    <KNVItem Name="owl:TransitiveProperty" Type="owl:ObjectProperty">
+    </KNVItem>
+    <KNVItem Name="owl:AnnotationProperty" Type="owl:Class">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="owl:DatatypeProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="owl:FunctionalProperty" Type="owl:Class">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="owl:DatatypeProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:Concept" Type="owl:Class">
+      <OldNames>
+        <OldName Name="ConceptType" />
+        <OldName Name="KNV:ConceptType" />
+      </OldNames>
+      <Body>
+      </Body>
+      <XMLData 
+        CSSClass="Concept"
+        Priority="900"
+        Icon="cog"
+        />
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:TopicType" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:ConceptScheme" Type="owl:Class">
+      <XMLData 
+        UILevel="10" 
+        />
+      <Body>
+        ConceptScheme is below KNV:Topic to carry a name and be listed in possible types
+      </Body>
+      <KNVItemLinks>
+        <KNVItemLink Other="KNV:TopicType" Type="rdfs:subClassOf" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:inScheme" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:range" Other="skos:ConceptScheme" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:Collection" Type="owl:Class">
+    </KNVItem>
+    <KNVItem Name="skos:member" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLinkX Type="rdfs:domain" Other="skos:Collection" />
+        <KNVItemLink Type="rdfs:range" Other="skos:Collection" />
+        <KNVItemLink Type="rdfs:range" Other="skos:Concept" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="KNV:isMemberOf" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="owl:inverseOf" Other="skos:member" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:semanticRelation" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:range" Other="skos:Concept" />
+        <KNVItemLinkX Type="rdfs:domain" Other="skos:Concept" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:broaderTransitive" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:semanticRelation" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:TransitiveProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:narrowerTransitive" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:semanticRelation" />
+        <KNVItemLink Type="owl:inverseOf" Other="skos:broaderTransitive" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:TransitiveProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:broader" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:broaderTransitive" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:narrower" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:narrowerTransitive" />
+        <KNVItemLink Type="owl:inverseOf" Other="skos:broader" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:related" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="KNV:RelatedToLinkType" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:SymmetricProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:mappingRelation" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:semanticRelation" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:broadMatch" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:mappingRelation" />
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:broader" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:narrowMatch" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:mappingRelation" />
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:narrower" />
+        <KNVItemLink Type="owl:inverseOf" Other="skos:broadMatch" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:relatedMatch" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:mappingRelation" />
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:related" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:SymmetricProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:closeMatch" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:mappingRelation" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:SymmetricProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+    <KNVItem Name="skos:exactMatch" Type="owl:ObjectProperty">
+      <KNVItemLinks>
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:mappingRelation" />
+        <KNVItemLink Type="rdfs:subClassOf" Other="skos:closeMatch" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:SymmetricProperty" />
+        <KNVItemLinkX Type="rdfs:instanceOf" Other="owl:TransitiveProperty" />
+      </KNVItemLinks>
+    </KNVItem>
+  </KNVItems>
+  <KNVUpdates>
+  </KNVUpdates>
+  <KNVTemplateFiles>
+  </KNVTemplateFiles>
+  <UserPolicy>
+  </UserPolicy>
+</KNVApp>

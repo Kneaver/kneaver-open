@@ -1,0 +1,52 @@
+<KNVApp Name="KNVSemantic" Author="Bruno Winck" Release="6.0.1" >
+    <KNVReqs>
+        <KNVReq Name="KNVRefData" Release="2.0.0"/>
+        <KNVReq Name="KNVStdInfo" Release="6.0.1"/>
+    </KNVReqs>
+    <Changes>
+        <Change Date="2015/01/03" Author="Bruno Winck" Description="Initial Coding"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="KNV:AcronymType" Type="owl:Class">
+            <XMLData 
+              Requirements="Name"
+              UILevel="10" 
+            />
+            <OldNames>
+        	<OldName Name="AcronymType" />
+            </OldNames>
+            <Body>Main item is usually the full name item. This class should be useless since we have the AKA attribute, unless we want to place an acronym on something we can't modifity</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Type="rdfs:subClassOf" Other="KNV:TerminalType" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:AsSameMeaningAsLinkType" Type="owl:ObjectProperty">
+            <OldNames>
+        	<OldName Name="SameMeaningAsType" />
+            </OldNames>
+            <Body>This opens the way to Synonyms, Acronyms and translation</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Type="KNV:AttributeLinkType" Other="KNV:DistanceAttribute" PreWord="Distance" Default="0"/>
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:IsSynonymWithLinkType" Type="owl:ObjectProperty">
+            <OldNames>
+        	<OldName Name="SynonymType" />
+            </OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Type="rdfs:subClassOf" Other="KNV:AsSameMeaningAsLinkType" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:IsTranslationOfLinkType" Type="owl:ObjectProperty">
+            <KNVItemLinks>
+        	<KNVItemLink Type="rdfs:subClassOf" Other="KNV:AsSameMeaningAsLinkType" />
+            </KNVItemLinks>
+        </KNVItem>
+    </KNVItems>
+    <KNVUpdates>
+    </KNVUpdates>
+    <KNVTemplateFiles>
+    </KNVTemplateFiles>
+    <UserPolicy>
+    </UserPolicy>
+</KNVApp>

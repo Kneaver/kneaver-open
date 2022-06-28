@@ -1,0 +1,33 @@
+<KNVApp Name="KNVEpistemology" Author="Bruno Winck" Release="6.0.1" >
+    <KNVReqs>
+      <KNVReq Name="KNVDiscourse" Release="7.0.1" />
+    </KNVReqs>
+    <Changes>
+        <Change Date="2015/01/03" Author="Bruno Winck" Description="Initial Coding"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="KNV:StatementType" Type="owl:Class">
+            <Body>
+        	A statement is stand alone piece of text with a truth value
+            </Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:FragmentType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:QuoteType" Type="owl:Class">
+            <Body>
+        	A Quote is a statement with a source. Source can be in the signature last line with a -- before
+                It's not a frgament but insertable inline like a picture or a tweet
+            </Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:TerminalType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+    </KNVItems>
+    <KNVUpdates>
+    </KNVUpdates>
+    <KNVTemplateFiles>
+    </KNVTemplateFiles>
+    <UserPolicy>
+    </UserPolicy>
+</KNVApp>

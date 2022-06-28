@@ -1,0 +1,147 @@
+<KNVApp Name="KNVKnowledgeRepModel" Author="Bruno Winck" Release="7.0.2" >
+    <KNVReqs>
+        <KNVReq Name="KNVStdInfo" Release="6.0.1"/>
+        <KNVReq Name="KNVskos" Release="1.0.0"/>
+    </KNVReqs>
+    <Changes>
+        <Change Date="2015/01/03" Author="Bruno Winck" Description="Initial Coding"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="KNV:ToolType" Type="owl:Class">
+            <XMLData 
+              Priority="740"
+              Icon="wrench"
+              />
+            <Body>Tools are everything we could use to achieve goals, tasks: It can be software, online services.</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:KnowledgeSourceType" Type="owl:Class">
+            <XMLData 
+              UILevel="10" 
+              />
+            <OldNames><OldName Name="KnowledgeSourceType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:BookType" Type="owl:Class" >
+            <XMLData 
+              Priority="760"
+              Icon="book"
+              UILevel="5" 
+              />
+            <OldNames><OldName Name="BookType" /></OldNames>
+            <Body>Reference for a book, also used for publications.</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:NameAttribute" Type="KNV:AttributeLinkType" PreWord="Author"/>
+        	<KNVItemLink Other="KNV:NameAttribute" Type="KNV:AttributeLinkType" PreWord="Publisher"/>
+        	<KNVItemLink Other="KNV:NameAttribute" Type="KNV:AttributeLinkType" PreWord="Language"/>
+        	<KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="DateOfPublishing"/>
+        	<KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="ISBN"/>
+        	<KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="ISBN-10"/>
+        	<KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="ISBN-13"/>
+        	<KNVItemLink Other="KNV:DateAttribute" Type="KNV:AttributeLinkType" PreWord="Reference"/>
+        	<KNVItemLink Other="KNV:KnowledgeSourceType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:AnecdoteType" Type="owl:Class">
+            <XMLData 
+              UILevel="10" 
+            />
+            <Body>Anecdotes are a special type of story embedding lessons and are often referred to by their names, hence they become concepts on their own.</Body>
+            <OldNames><OldName Name="AnecdotType" /></OldNames>
+            <OldNames><OldName Name="KNV:AnecdotType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:FieldType" Type="owl:Class">
+            <XMLData 
+              UILevel="10" 
+              Icon="cogs"
+              CSSClass="Field"
+              />
+            <OldNames><OldName Name="CenterOfInterestType" /><OldName Name="KNV:CenterOfInterestType" /></OldNames>
+            <Body>This type is used to group different KnowledgeDomains and CentersOfInterest. A critical use is in the My Knowledge item.</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:DisciplineType" Type="owl:Class">
+            <OldNames><OldName Name="DisciplineType" /></OldNames>
+            <Body>Disciplines are set of practices with reference theories.</Body>
+        </KNVItem>
+        <KNVItem Name="KNV:DisciplineOfInterestType" Type="owl:Class">
+            <OldNames><OldName Name="DisciplineOfInterestType" /></OldNames>
+            <Body>A discipline we study.</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:DisciplineType" Type="rdfs:subClassOf" />
+        	<KNVItemLink Other="KNV:FieldType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:StandardCommitteeType" Type="owl:Class">
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="StandardCommitteeType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Type="rdfs:subClassOf" Other="skos:Concept" />
+        	<KNVItemLink Other="KNV:EarthLocationSlot" Type="KNV:AttributeLinkType" PreWord="Issuer"/>
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:ActorType" Type="owl:Class">
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="ActorType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+        	<KNVItemLink Other="foaf:Agent" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:ActivitiesType" Type="owl:Class">
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="ActivitiesType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:ConventionType" Type="owl:Class">
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="ConventionType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:StandardType" Type="owl:Class">
+            <OldNames><OldName Name="StandardType" /></OldNames>
+            <XMLData CSSClass="StandardType"/>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:ConventionType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:RuleType" Type="owl:Class">
+            <XMLData 
+              UILevel="10" 
+              Icon="life-ring"
+              />
+            <Body>Rules are self activating Knowledge. They apply when certain conditions are met. They could be called Principles as well.</Body>
+            <OldNames><OldName Name="RuleType" /></OldNames>
+            <KNVItemLinks>
+        	<KNVItemLink Other="KNV:ConventionType" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:RepositoryType" Type="owl:Class" >
+            <XMLData UILevel="10" />
+            <OldNames><OldName Name="RepositoryType" /></OldNames>
+            <Body>Like Folder, Binder</Body>
+            <KNVItemLinks>
+        	<KNVItemLink Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+    </KNVItems>
+    <KNVUpdates>
+    </KNVUpdates>
+    <KNVTemplateFiles>
+    </KNVTemplateFiles>
+    <UserPolicy>
+    </UserPolicy>
+</KNVApp>

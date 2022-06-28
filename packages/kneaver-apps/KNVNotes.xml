@@ -1,0 +1,31 @@
+<KNVApp Name="KNVNotes" Author="Bruno Winck" Release="1.0.1" >
+    <KNVReqs>
+    </KNVReqs>
+    <Changes>
+        <Change Date="2009/04/25" Author="Bruno Winck" Description="Initial Coding"/>
+        <Change Date="2015/01/03" Author="Bruno Winck" Description="Added KNV:NoteType, group all fragment here"/>
+    </Changes>
+    <KNVItems>
+        <KNVItem Name="KNV:CommentType" Type="owl:Class">
+            <Body>Comments are annotations on items that aim to be shared and replied to form discussions. They can't have names, be isolated or links outside from sub comments and their owning item.</Body>
+            <OldNames>
+        	<OldName Name="KNVCommentType" />
+            </OldNames>
+            <XMLData Requirements="!Name;Link"/>
+            <KNVItemLinks>
+        	<KNVItemLink Action="Drop" Other="skos:Concept" Type="rdfs:subClassOf" />
+            </KNVItemLinks>
+        </KNVItem>
+        <KNVItem Name="KNV:NoteType" Type="owl:Class">
+            <Body>Notes are annotations on items that aim to remain strictly private. They can't be named, be isolated or carry links outside from owning item.</Body>
+            <XMLData Requirements="!Name;Link;Private"/>
+        </KNVItem>
+    </KNVItems>
+    <KNVTemplateFiles>
+        <KNVTemplateFile href="../../KneaverNode/KNVTemplates/KNVNotes.tsx" />
+    </KNVTemplateFiles>
+    <KNVPlugins>
+        <KNVPlugin Type="UserMenu" TemplateBloc="KNVNotesUserMenu">
+        </KNVPlugin>
+    </KNVPlugins>
+</KNVApp>
